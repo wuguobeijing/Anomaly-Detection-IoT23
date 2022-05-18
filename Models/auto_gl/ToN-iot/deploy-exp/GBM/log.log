@@ -1,0 +1,139 @@
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T1 with 'num_gpus': 1, 'num_cpus': 8
+	Training LightGBM/T1 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.05, 'num_leaves': 36, 'feature_fraction': 1.0, 'min_data_in_leaf': 20, 'device': 'gpu'}
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T2 with 'num_gpus': 1, 'num_cpus': 8
+	Training LightGBM/T2 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.06994332504138305, 'num_leaves': 29, 'feature_fraction': 0.8872033759818312, 'min_data_in_leaf': 5, 'device': 'gpu'}
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T3 with 'num_gpus': 1, 'num_cpus': 8
+	Training LightGBM/T3 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.049883446878335284, 'num_leaves': 62, 'feature_fraction': 0.9618129346960314, 'min_data_in_leaf': 52, 'device': 'gpu'}
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T4 with 'num_gpus': 1, 'num_cpus': 8
+	Training LightGBM/T4 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.006163502781172814, 'num_leaves': 27, 'feature_fraction': 0.824383651636118, 'min_data_in_leaf': 14, 'device': 'gpu'}
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T5 with 'num_gpus': 1, 'num_cpus': 8
+	Training LightGBM/T5 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.035179640321040824, 'num_leaves': 43, 'feature_fraction': 0.9479312595206661, 'min_data_in_leaf': 26, 'device': 'gpu'}
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Time for LightGBM model HPO: 9.552935123443604
+Best hyperparameter configuration for LightGBM model: 
+{'learning_rate': 0.049883446878335284, 'num_boost_round': 100, 'num_leaves': 62, 'feature_fraction': 0.9618129346960314, 'min_data_in_leaf': 52}
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Fitted model: LightGBM/T1 ...
+	0.9992	 = Validation score   (roc_auc)
+	4.93s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Fitted model: LightGBM/T2 ...
+	0.9993	 = Validation score   (roc_auc)
+	1.0s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Fitted model: LightGBM/T3 ...
+	0.9994	 = Validation score   (roc_auc)
+	1.26s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Fitted model: LightGBM/T4 ...
+	0.9965	 = Validation score   (roc_auc)
+	0.96s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Fitted model: LightGBM/T5 ...
+	0.999	 = Validation score   (roc_auc)
+	1.1s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 1188.54s of remaining time.
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[0. 0. 1. 0. 0.]
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/WeightedEnsemble_L2/model.pkl
+	0.9994	 = Validation score   (roc_auc)
+	0.79s	 = Training   runtime
+	0.0s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+AutoGluon training complete, total runtime = 12.49s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Deleting model LightGBM/T1. All files under ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T1/ will be removed.
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Deleting model LightGBM/T2. All files under ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T2/ will be removed.
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Deleting model LightGBM/T4. All files under ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T4/ will be removed.
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Deleting model LightGBM/T5. All files under ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T5/ will be removed.
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/GBM/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/learner.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/predictor.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/GBM/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/ToN-iot/deploy-exp/GBM/")
+
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val  fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0          LightGBM/T3   0.999414       0.004999  1.261881                0.004999           1.261881            1       True          1
+1  WeightedEnsemble_L2   0.999414       0.006951  2.054375                0.001951           0.792494            2       True          2
+Number of models trained: 2
+Types of models trained:
+{'WeightedEnsembleModel', 'LGBModel'}
+Bagging used: False
+Multi-layer stack-ensembling used: False
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     :  1 | ['duration']
+('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+*** End of fit() summary ***
+{'model_types': {'LightGBM/T3': 'LGBModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'LightGBM/T3': 0.9994142494502649, 'WeightedEnsemble_L2': 0.9994142494502649}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'LightGBM/T3': './auto_gl/ToN-iot/deploy-exp/GBM/models/LightGBM/T3/', 'WeightedEnsemble_L2': './auto_gl/ToN-iot/deploy-exp/GBM/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'LightGBM/T3': 1.26188063621521, 'WeightedEnsemble_L2': 0.7924940586090088}, 'model_pred_times': {'LightGBM/T3': 0.0049991607666015625, 'WeightedEnsemble_L2': 0.001951456069946289}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'LightGBM/T3': {'learning_rate': 0.049883446878335284, 'num_boost_round': 100, 'num_leaves': 62, 'feature_fraction': 0.9618129346960314, 'min_data_in_leaf': 52}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val  fit_time  \
+0          LightGBM/T3   0.999414       0.004999  1.261881
+1  WeightedEnsemble_L2   0.999414       0.006951  2.054375
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.004999           1.261881            1       True
+1                0.001951           0.792494            2       True
+
+   fit_order
+0          1
+1          2  }
+{
+    "roc_auc": 0.9993089390129054,
+    "accuracy": 0.9896105586222603,
+    "balanced_accuracy": 0.9897661096277438,
+    "mcc": 0.9772299833374241,
+    "f1": 0.9852046332046334,
+    "precision": 0.980178851295289,
+    "recall": 0.9902822192554877
+}

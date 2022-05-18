@@ -1,0 +1,83 @@
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_val.pkl
+	Fitting NeuralNetFastAI/T1 with 'num_gpus': 1, 'num_cpus': 8
+Fitting Neural Network with parameters {'layers': None, 'emb_drop': 0.1, 'ps': 0.1, 'bs': 256, 'lr': 0.01, 'epochs': 30, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}...
+Using 0/0 categorical features
+Using 30 cont features
+TabularModel(
+  (embeds): ModuleList()
+  (emb_drop): Dropout(p=0.1, inplace=False)
+  (bn_cont): BatchNorm1d(30, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layers): Sequential(
+    (0): LinBnDrop(
+      (0): Linear(in_features=30, out_features=200, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.1, inplace=False)
+    )
+    (1): LinBnDrop(
+      (0): Linear(in_features=200, out_features=100, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(100, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.1, inplace=False)
+    )
+    (2): LinBnDrop(
+      (0): Linear(in_features=100, out_features=2, bias=True)
+    )
+  )
+)
+Better model found at epoch 0 with valid_loss value: 8.10110855102539.
+Better model found at epoch 1 with valid_loss value: 4.767204761505127.
+Better model found at epoch 7 with valid_loss value: 4.532161235809326.
+Better model found at epoch 8 with valid_loss value: 1.6631723642349243.
+Better model found at epoch 10 with valid_loss value: 0.4324922561645508.
+	Ran out of time, stopping training early. (Stopping on epoch 16)
+Model validation metrics: 0.4324922561645508
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+	Stopping HPO to satisfy time limit...
+Time for NeuralNetFastAI model HPO: 1057.506942987442
+Best hyperparameter configuration for NeuralNetFastAI model: 
+{'layers': None, 'emb_drop': 0.1, 'ps': 0.1, 'bs': 256, 'lr': 0.01, 'epochs': 30, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Fitted model: NeuralNetFastAI/T1 ...
+	0.9476	 = Validation score   (roc_auc)
+	1054.52s	 = Training   runtime
+	0.83s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 129.68s of remaining time.
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[1.]
+	0.05s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/WeightedEnsemble_L2/model.pkl
+	0.9476	 = Validation score   (roc_auc)
+	0.01s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+AutoGluon training complete, total runtime = 1072.46s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/FastAI/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/learner.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/predictor.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/FastAI/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/exp-iot23/deploy-exp/FastAI/")

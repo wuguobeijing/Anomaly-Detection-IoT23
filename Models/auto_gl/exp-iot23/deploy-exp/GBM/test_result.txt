@@ -1,0 +1,25 @@
+*** End of fit() summary ***
+{'model_types': {'LightGBM/T2': 'LGBModel', 'LightGBM/T3': 'LGBModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'LightGBM/T2': 0.9510329687741019, 'LightGBM/T3': 0.9510439362013308, 'WeightedEnsemble_L2': 0.951052071837004}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'LightGBM/T2': './auto_gl/exp-iot23/deploy-exp/GBM/models/LightGBM/T2/', 'LightGBM/T3': './auto_gl/exp-iot23/deploy-exp/GBM/models/LightGBM/T3/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23/deploy-exp/GBM/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'LightGBM/T2': 6.061773061752319, 'LightGBM/T3': 6.523121118545532, 'WeightedEnsemble_L2': 3.9650442600250244}, 'model_pred_times': {'LightGBM/T2': 0.02847003936767578, 'LightGBM/T3': 0.03303050994873047, 'WeightedEnsemble_L2': 0.00890660285949707}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'LightGBM/T2': {'learning_rate': 0.06994332504138305, 'num_boost_round': 100, 'num_leaves': 29, 'feature_fraction': 0.8872033759818312, 'min_data_in_leaf': 5}, 'LightGBM/T3': {'learning_rate': 0.049883446878335284, 'num_boost_round': 100, 'num_leaves': 62, 'feature_fraction': 0.9618129346960314, 'min_data_in_leaf': 52}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val   fit_time  \
+0  WeightedEnsemble_L2   0.951052       0.070407  16.549938   
+1          LightGBM/T3   0.951044       0.033031   6.523121   
+2          LightGBM/T2   0.951033       0.028470   6.061773   
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.008907           3.965044            2       True   
+1                0.033031           6.523121            1       True   
+2                0.028470           6.061773            1       True   
+
+   fit_order  
+0          3  
+1          2  
+2          1  }
+{
+    "roc_auc": 0.9522810661388657,
+    "accuracy": 0.9741350348785666,
+    "balanced_accuracy": 0.9070563798541151,
+    "mcc": 0.8359181910023779,
+    "f1": 0.9858506188320203,
+    "precision": 0.9831522382436683,
+    "recall": 0.9885638522515235
+}
+{'roc_auc': 0.8879508443383168, 'accuracy': 0.9028056037091455, 'balanced_accuracy': 0.8699932598280624, 'mcc': 0.6518439453312579, 'f1': 0.9421217797031276, 'precision': 0.9709016041412121, 'recall': 0.9149990397541771}

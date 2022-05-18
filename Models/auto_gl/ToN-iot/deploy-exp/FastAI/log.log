@@ -1,0 +1,295 @@
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_val.pkl
+	Fitting NeuralNetFastAI/T1 with 'num_gpus': 1, 'num_cpus': 8
+Fitting Neural Network with parameters {'layers': None, 'emb_drop': 0.1, 'ps': 0.1, 'bs': 256, 'lr': 0.01, 'epochs': 30, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}...
+Using 0/0 categorical features
+Using 40 cont features
+TabularModel(
+  (embeds): ModuleList()
+  (emb_drop): Dropout(p=0.1, inplace=False)
+  (bn_cont): BatchNorm1d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layers): Sequential(
+    (0): LinBnDrop(
+      (0): Linear(in_features=40, out_features=200, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(200, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.1, inplace=False)
+    )
+    (1): LinBnDrop(
+      (0): Linear(in_features=200, out_features=100, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(100, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.1, inplace=False)
+    )
+    (2): LinBnDrop(
+      (0): Linear(in_features=100, out_features=2, bias=True)
+    )
+  )
+)
+Better model found at epoch 0 with valid_loss value: 1.1224174499511719.
+Better model found at epoch 1 with valid_loss value: 0.8917718529701233.
+Better model found at epoch 2 with valid_loss value: 0.7724826335906982.
+Better model found at epoch 8 with valid_loss value: 0.703346312046051.
+No improvement since epoch 8: early stopping
+Model validation metrics: 0.703346312046051
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_val.pkl
+	Fitting NeuralNetFastAI/T2 with 'num_gpus': 1, 'num_cpus': 8
+Fitting Neural Network with parameters {'layers': [500], 'emb_drop': 0.29642230911250916, 'ps': 0.4236258693920627, 'bs': 1024, 'lr': 0.033968332094098545, 'epochs': 5, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}...
+Using 0/0 categorical features
+Using 40 cont features
+TabularModel(
+  (embeds): ModuleList()
+  (emb_drop): Dropout(p=0.29642230911250916, inplace=False)
+  (bn_cont): BatchNorm1d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layers): Sequential(
+    (0): LinBnDrop(
+      (0): Linear(in_features=40, out_features=500, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(500, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.4236258693920627, inplace=False)
+    )
+    (1): LinBnDrop(
+      (0): Linear(in_features=500, out_features=2, bias=True)
+    )
+  )
+)
+Better model found at epoch 0 with valid_loss value: 0.4122014343738556.
+Better model found at epoch 1 with valid_loss value: 0.32785317301750183.
+Model validation metrics: 0.32785317301750183
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_val.pkl
+	Fitting NeuralNetFastAI/T3 with 'num_gpus': 1, 'num_cpus': 8
+Fitting Neural Network with parameters {'layers': [1000, 500], 'emb_drop': 0.32294705653332806, 'ps': 0.48183138025051464, 'bs': 512, 'lr': 0.04392779755683637, 'epochs': 9, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}...
+Using 0/0 categorical features
+Using 40 cont features
+TabularModel(
+  (embeds): ModuleList()
+  (emb_drop): Dropout(p=0.32294705653332806, inplace=False)
+  (bn_cont): BatchNorm1d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layers): Sequential(
+    (0): LinBnDrop(
+      (0): Linear(in_features=40, out_features=1000, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(1000, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.48183138025051464, inplace=False)
+    )
+    (1): LinBnDrop(
+      (0): Linear(in_features=1000, out_features=500, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(500, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.48183138025051464, inplace=False)
+    )
+    (2): LinBnDrop(
+      (0): Linear(in_features=500, out_features=2, bias=True)
+    )
+  )
+)
+Better model found at epoch 0 with valid_loss value: 0.9191543459892273.
+Better model found at epoch 2 with valid_loss value: 0.6000304222106934.
+Better model found at epoch 3 with valid_loss value: 0.5439544320106506.
+Model validation metrics: 0.5439544320106506
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_val.pkl
+	Fitting NeuralNetFastAI/T4 with 'num_gpus': 1, 'num_cpus': 8
+Fitting Neural Network with parameters {'layers': [1000, 500], 'emb_drop': 0.23883255866067493, 'ps': 0.19639239805041486, 'bs': 128, 'lr': 0.0019203882832931605, 'epochs': 12, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}...
+Using 0/0 categorical features
+Using 40 cont features
+TabularModel(
+  (embeds): ModuleList()
+  (emb_drop): Dropout(p=0.23883255866067493, inplace=False)
+  (bn_cont): BatchNorm1d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layers): Sequential(
+    (0): LinBnDrop(
+      (0): Linear(in_features=40, out_features=1000, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(1000, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.19639239805041486, inplace=False)
+    )
+    (1): LinBnDrop(
+      (0): Linear(in_features=1000, out_features=500, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(500, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.19639239805041486, inplace=False)
+    )
+    (2): LinBnDrop(
+      (0): Linear(in_features=500, out_features=2, bias=True)
+    )
+  )
+)
+Better model found at epoch 0 with valid_loss value: 1.0791058540344238.
+Model validation metrics: 1.0791058540344238
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/dataset_val.pkl
+	Fitting NeuralNetFastAI/T5 with 'num_gpus': 1, 'num_cpus': 8
+Fitting Neural Network with parameters {'layers': [1000], 'emb_drop': 0.03551802909894347, 'ps': 0.416309922773969, 'bs': 64, 'lr': 5.8305770755682475e-05, 'epochs': 14, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}...
+Using 0/0 categorical features
+Using 40 cont features
+TabularModel(
+  (embeds): ModuleList()
+  (emb_drop): Dropout(p=0.03551802909894347, inplace=False)
+  (bn_cont): BatchNorm1d(40, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (layers): Sequential(
+    (0): LinBnDrop(
+      (0): Linear(in_features=40, out_features=1000, bias=False)
+      (1): ReLU(inplace=True)
+      (2): BatchNorm1d(1000, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (3): Dropout(p=0.416309922773969, inplace=False)
+    )
+    (1): LinBnDrop(
+      (0): Linear(in_features=1000, out_features=2, bias=True)
+    )
+  )
+)
+Better model found at epoch 0 with valid_loss value: 0.3322855234146118.
+Model validation metrics: 0.3322855234146118
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model-internals.pkl
+Time for NeuralNetFastAI model HPO: 730.8712861537933
+Best hyperparameter configuration for NeuralNetFastAI model: 
+{'layers': [1000], 'emb_drop': 0.03551802909894347, 'ps': 0.416309922773969, 'bs': 64, 'lr': 5.8305770755682475e-05, 'epochs': 14, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Fitted model: NeuralNetFastAI/T1 ...
+	0.8332	 = Validation score   (roc_auc)
+	222.98s	 = Training   runtime
+	0.35s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model-internals.pkl
+Fitted model: NeuralNetFastAI/T2 ...
+	0.9298	 = Validation score   (roc_auc)
+	9.94s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model-internals.pkl
+Fitted model: NeuralNetFastAI/T3 ...
+	0.9095	 = Validation score   (roc_auc)
+	32.5s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model-internals.pkl
+Fitted model: NeuralNetFastAI/T4 ...
+	0.8628	 = Validation score   (roc_auc)
+	155.46s	 = Training   runtime
+	0.1s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model-internals.pkl
+Fitted model: NeuralNetFastAI/T5 ...
+	0.9424	 = Validation score   (roc_auc)
+	308.12s	 = Training   runtime
+	0.18s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model-internals.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 466.54s of remaining time.
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 91
+Ensemble weights: 
+[0.         0.49450549 0.13186813 0.20879121 0.16483516]
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/WeightedEnsemble_L2/model.pkl
+	0.954	 = Validation score   (roc_auc)
+	0.85s	 = Training   runtime
+	0.0s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+AutoGluon training complete, total runtime = 734.57s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/model-internals.pkl
+Deleting model NeuralNetFastAI/T1. All files under ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T1/ will be removed.
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model-internals.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model-internals.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model-internals.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model-internals.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/model-internals.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/FastAI/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/learner.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/predictor.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/FastAI/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/ToN-iot/deploy-exp/FastAI/")
+
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.953963       0.354138  506.876335                0.001951           0.853205            2       True          5
+1   NeuralNetFastAI/T5   0.942438       0.182256  308.120401                0.182256         308.120401            1       True          4
+2   NeuralNetFastAI/T2   0.929775       0.028117    9.940092                0.028117           9.940092            1       True          1
+3   NeuralNetFastAI/T3   0.909508       0.037960   32.498358                0.037960          32.498358            1       True          2
+4   NeuralNetFastAI/T4   0.862822       0.103854  155.464280                0.103854         155.464280            1       True          3
+Number of models trained: 5
+Types of models trained:
+{'WeightedEnsembleModel', 'NNFastAiTabularModel'}
+Bagging used: False
+Multi-layer stack-ensembling used: False
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     :  1 | ['duration']
+('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+*** End of fit() summary ***
+{'model_types': {'NeuralNetFastAI/T2': 'NNFastAiTabularModel', 'NeuralNetFastAI/T3': 'NNFastAiTabularModel', 'NeuralNetFastAI/T4': 'NNFastAiTabularModel', 'NeuralNetFastAI/T5': 'NNFastAiTabularModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'NeuralNetFastAI/T2': 0.929775215043332, 'NeuralNetFastAI/T3': 0.9095077852153668, 'NeuralNetFastAI/T4': 0.8628215948777648, 'NeuralNetFastAI/T5': 0.9424381548311991, 'WeightedEnsemble_L2': 0.9539625776096236}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'NeuralNetFastAI/T2': './auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T2/', 'NeuralNetFastAI/T3': './auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T3/', 'NeuralNetFastAI/T4': './auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T4/', 'NeuralNetFastAI/T5': './auto_gl/ToN-iot/deploy-exp/FastAI/models/NeuralNetFastAI/T5/', 'WeightedEnsemble_L2': './auto_gl/ToN-iot/deploy-exp/FastAI/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'NeuralNetFastAI/T2': 9.940091848373413, 'NeuralNetFastAI/T3': 32.49835753440857, 'NeuralNetFastAI/T4': 155.46427965164185, 'NeuralNetFastAI/T5': 308.1204013824463, 'WeightedEnsemble_L2': 0.8532049655914307}, 'model_pred_times': {'NeuralNetFastAI/T2': 0.028116941452026367, 'NeuralNetFastAI/T3': 0.037960052490234375, 'NeuralNetFastAI/T4': 0.10385441780090332, 'NeuralNetFastAI/T5': 0.18225550651550293, 'WeightedEnsemble_L2': 0.0019507408142089844}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'NeuralNetFastAI/T2': {'layers': [500], 'emb_drop': 0.29642230911250916, 'ps': 0.4236258693920627, 'bs': 1024, 'lr': 0.033968332094098545, 'epochs': 5, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}, 'NeuralNetFastAI/T3': {'layers': [1000, 500], 'emb_drop': 0.32294705653332806, 'ps': 0.48183138025051464, 'bs': 512, 'lr': 0.04392779755683637, 'epochs': 9, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}, 'NeuralNetFastAI/T4': {'layers': [1000, 500], 'emb_drop': 0.23883255866067493, 'ps': 0.19639239805041486, 'bs': 128, 'lr': 0.0019203882832931605, 'epochs': 12, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}, 'NeuralNetFastAI/T5': {'layers': [1000], 'emb_drop': 0.03551802909894347, 'ps': 0.416309922773969, 'bs': 64, 'lr': 5.8305770755682475e-05, 'epochs': 14, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val    fit_time  \
+0  WeightedEnsemble_L2   0.953963       0.354138  506.876335
+1   NeuralNetFastAI/T5   0.942438       0.182256  308.120401
+2   NeuralNetFastAI/T2   0.929775       0.028117    9.940092
+3   NeuralNetFastAI/T3   0.909508       0.037960   32.498358
+4   NeuralNetFastAI/T4   0.862822       0.103854  155.464280
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.001951           0.853205            2       True
+1                0.182256         308.120401            1       True
+2                0.028117           9.940092            1       True
+3                0.037960          32.498358            1       True
+4                0.103854         155.464280            1       True
+
+   fit_order
+0          5
+1          4
+2          1
+3          2
+4          3  }
+{
+    "roc_auc": 0.9582199931178654,
+    "accuracy": 0.8606968950970079,
+    "balanced_accuracy": 0.8685761003653223,
+    "mcc": 0.7132428714571389,
+    "f1": 0.8177523020388473,
+    "precision": 0.7529786789297659,
+    "recall": 0.8947188673973113
+}

@@ -1,0 +1,14 @@
+*** End of fit() summary ***
+{'model_types': {'XGBoost/T1': 'XGBoostModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'XGBoost/T1': 0.9509546642690392, 'WeightedEnsemble_L2': 0.9509546642690392}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'XGBoost/T1': './auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T1/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23/deploy-exp/XGB/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'XGBoost/T1': 26.48062491416931, 'WeightedEnsemble_L2': 4.0330810546875}, 'model_pred_times': {'XGBoost/T1': 0.03648233413696289, 'WeightedEnsemble_L2': 0.007972478866577148}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'XGBoost/T1': {'n_estimators': 10000, 'learning_rate': 0.1, 'n_jobs': -1, 'proc.max_category_levels': 100, 'objective': 'binary:logistic', 'booster': 'gbtree', 'use_label_encoder': False, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.01, 'subsample': 1.0, 'colsample_bytree': 1.0, 'reg_alpha': 0.0, 'reg_lambda': 1.0}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val   fit_time  \
+0           XGBoost/T1   0.950955       0.036482  26.480625   
+1  WeightedEnsemble_L2   0.950955       0.044455  30.513706   
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.036482          26.480625            1       True   
+1                0.007972           4.033081            2       True   
+
+   fit_order  
+0          1  
+1          2  }
+{'roc_auc': 0.9520707773908055, 'accuracy': 0.9735202855609734, 'balanced_accuracy': 0.9012276451969046, 'mcc': 0.8309495826949305, 'f1': 0.9855265037133762, 'precision': 0.9820076696120213, 'recall': 0.9890706466235465}
+{'roc_auc': 0.9217448569631781, 'accuracy': 0.8793535060673523, 'balanced_accuracy': 0.8566076632980975, 'mcc': 0.6004957732172004, 'f1': 0.9271337375229076, 'precision': 0.9701070879119144, 'recall': 0.8878061170756488}

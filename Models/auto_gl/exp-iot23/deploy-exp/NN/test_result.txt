@@ -1,0 +1,25 @@
+*** End of fit() summary ***
+{'model_types': {'NeuralNetTorch/T1': 'TabularNeuralNetTorchModel', 'NeuralNetTorch/T3': 'TabularNeuralNetTorchModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'NeuralNetTorch/T1': 0.950664681698064, 'NeuralNetTorch/T3': 0.7886151648512497, 'WeightedEnsemble_L2': 0.9506700303448405}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'NeuralNetTorch/T1': './auto_gl/exp-iot23/deploy-exp/NN/models/NeuralNetTorch/T1/', 'NeuralNetTorch/T3': './auto_gl/exp-iot23/deploy-exp/NN/models/NeuralNetTorch/T3/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23/deploy-exp/NN/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'NeuralNetTorch/T1': 154.62450218200684, 'NeuralNetTorch/T3': 122.33957481384277, 'WeightedEnsemble_L2': 4.309461355209351}, 'model_pred_times': {'NeuralNetTorch/T1': 0.22520804405212402, 'NeuralNetTorch/T3': 0.22979259490966797, 'WeightedEnsemble_L2': 0.00842738151550293}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'NeuralNetTorch/T1': {'num_epochs': 5, 'epochs_wo_improve': 20, 'activation': 'relu', 'embedding_size_factor': 1.0, 'embed_exponent': 0.56, 'max_embedding_dim': 100, 'y_range': None, 'y_range_extend': 0.05, 'dropout_prob': 0.1, 'optimizer': 'adam', 'learning_rate': 0.0005, 'weight_decay': 1e-06, 'proc.embed_min_categories': 4, 'proc.impute_strategy': 'median', 'proc.max_category_levels': 100, 'proc.skew_threshold': 0.99, 'use_ngram_features': False, 'num_layers': 2, 'hidden_size': 128, 'max_batch_size': 512, 'use_batchnorm': False, 'loss_function': 'auto'}, 'NeuralNetTorch/T3': {'num_epochs': 5, 'epochs_wo_improve': 20, 'activation': 'tanh', 'embedding_size_factor': 1.2, 'embed_exponent': 0.56, 'max_embedding_dim': 100, 'y_range': None, 'y_range_extend': 0.05, 'dropout_prob': 0.4060843643877466, 'optimizer': 'adam', 'learning_rate': 0.007098936257405899, 'weight_decay': 0.0014415121293276517, 'proc.embed_min_categories': 4, 'proc.impute_strategy': 'mean', 'proc.max_category_levels': 300, 'proc.skew_threshold': 0.5, 'use_ngram_features': False, 'num_layers': 3, 'hidden_size': 256, 'max_batch_size': 512, 'use_batchnorm': False, 'loss_function': 'auto'}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val    fit_time  \
+0  WeightedEnsemble_L2   0.950670       0.463428  281.273538   
+1    NeuralNetTorch/T1   0.950665       0.225208  154.624502   
+2    NeuralNetTorch/T3   0.788615       0.229793  122.339575   
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.008427           4.309461            2       True   
+1                0.225208         154.624502            1       True   
+2                0.229793         122.339575            1       True   
+
+   fit_order  
+0          3  
+1          1  
+2          2  }
+{
+    "roc_auc": 0.9518705789529632,
+    "accuracy": 0.9735296176189254,
+    "balanced_accuracy": 0.9042016314019342,
+    "mcc": 0.8317958887138773,
+    "f1": 0.9855224659530405,
+    "precision": 0.9826198582209941,
+    "recall": 0.9884422727935888
+}
+{'roc_auc': 0.8779159533555309, 'accuracy': 0.8787872079467408, 'balanced_accuracy': 0.8536994750489882, 'mcc': 0.5967503695706255, 'f1': 0.9268399596910104, 'precision': 0.969101821126765, 'recall': 0.8881100916673378}

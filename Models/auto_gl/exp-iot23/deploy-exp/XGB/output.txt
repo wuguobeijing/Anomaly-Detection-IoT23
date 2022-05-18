@@ -1,0 +1,98 @@
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T1 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train XGBoost model, roughly requires: 2.369 GB, but only 10.023 GB is available...
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T2 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train XGBoost model, roughly requires: 2.369 GB, but only 9.769 GB is available...
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T2/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T3 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train XGBoost model, roughly requires: 2.369 GB, but only 9.742 GB is available...
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T3/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T4 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train XGBoost model, roughly requires: 2.369 GB, but only 9.742 GB is available...
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T4/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T5 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train XGBoost model, roughly requires: 2.369 GB, but only 9.741 GB is available...
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T5/model.pkl
+Time for XGBoost model HPO: 627.9294691085815
+Best hyperparameter configuration for XGBoost model: 
+{'n_estimators': 10000, 'learning_rate': 0.1, 'n_jobs': -1, 'proc.max_category_levels': 100, 'objective': 'binary:logistic', 'booster': 'gbtree', 'use_label_encoder': False, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.01, 'subsample': 1.0, 'colsample_bytree': 1.0, 'reg_alpha': 0.0, 'reg_lambda': 1.0}
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T1/model.pkl
+Fitted model: XGBoost/T1 ...
+	0.951	 = Validation score   (roc_auc)
+	26.48s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T2/model.pkl
+Fitted model: XGBoost/T2 ...
+	0.9509	 = Validation score   (roc_auc)
+	28.82s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T3/model.pkl
+Fitted model: XGBoost/T3 ...
+	0.9508	 = Validation score   (roc_auc)
+	52.46s	 = Training   runtime
+	0.08s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T4/model.pkl
+Fitted model: XGBoost/T4 ...
+	0.9509	 = Validation score   (roc_auc)
+	15.84s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T5/model.pkl
+Fitted model: XGBoost/T5 ...
+	0.9509	 = Validation score   (roc_auc)
+	502.03s	 = Training   runtime
+	0.3s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T2/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T3/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T4/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T5/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 563.3s of remaining time.
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[1. 0. 0. 0. 0.]
+	0.06s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/WeightedEnsemble_L2/model.pkl
+	0.951	 = Validation score   (roc_auc)
+	4.03s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+AutoGluon training complete, total runtime = 643.01s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T2/model.pkl
+Deleting model XGBoost/T2. All files under ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T2/ will be removed.
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T3/model.pkl
+Deleting model XGBoost/T3. All files under ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T3/ will be removed.
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T4/model.pkl
+Deleting model XGBoost/T4. All files under ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T4/ will be removed.
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T5/model.pkl
+Deleting model XGBoost/T5. All files under ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T5/ will be removed.
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T1/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/XGBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XGB/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/learner.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/predictor.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XGB/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/exp-iot23/deploy-exp/XGB/")

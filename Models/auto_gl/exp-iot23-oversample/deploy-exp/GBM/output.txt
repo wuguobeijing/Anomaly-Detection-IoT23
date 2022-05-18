@@ -1,0 +1,149 @@
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T1 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train model, roughly requires: 5.467 GB, but only 8.166 GB is available...
+	Training LightGBM/T1 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.05, 'num_leaves': 36, 'feature_fraction': 1.0, 'min_data_in_leaf': 20, 'device': 'gpu'}
+[LightGBM] [Fatal] Check failed: (best_split_info.right_count) > (0) at /home/wuguo-buaa/tmp/pip-install-4flbbpn1/lightgbm_eb6c31e6ac6b49c59f7cb6cbd6b868e8/compile/src/treelearner/serial_tree_learner.cpp, line 663 .
+
+Warning: GPU mode might not be installed for LightGBM, GPU training raised an exception. Falling back to CPU training...Refer to LightGBM GPU documentation: https://github.com/Microsoft/LightGBM/tree/master/python-package#build-gpu-versionOne possible method is:	pip uninstall lightgbm -y	pip install lightgbm --install-option=--gpu
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T2 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train model, roughly requires: 5.467 GB, but only 7.723 GB is available...
+	Training LightGBM/T2 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.06994332504138305, 'num_leaves': 29, 'feature_fraction': 0.8872033759818312, 'min_data_in_leaf': 5, 'device': 'gpu'}
+[LightGBM] [Fatal] Check failed: (best_split_info.left_count) > (0) at /home/wuguo-buaa/tmp/pip-install-4flbbpn1/lightgbm_eb6c31e6ac6b49c59f7cb6cbd6b868e8/compile/src/treelearner/serial_tree_learner.cpp, line 653 .
+
+Warning: GPU mode might not be installed for LightGBM, GPU training raised an exception. Falling back to CPU training...Refer to LightGBM GPU documentation: https://github.com/Microsoft/LightGBM/tree/master/python-package#build-gpu-versionOne possible method is:	pip uninstall lightgbm -y	pip install lightgbm --install-option=--gpu
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T3 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train model, roughly requires: 5.467 GB, but only 7.607 GB is available...
+	Training LightGBM/T3 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.049883446878335284, 'num_leaves': 62, 'feature_fraction': 0.9618129346960314, 'min_data_in_leaf': 52, 'device': 'gpu'}
+[LightGBM] [Fatal] Check failed: (best_split_info.right_count) > (0) at /home/wuguo-buaa/tmp/pip-install-4flbbpn1/lightgbm_eb6c31e6ac6b49c59f7cb6cbd6b868e8/compile/src/treelearner/serial_tree_learner.cpp, line 663 .
+
+Warning: GPU mode might not be installed for LightGBM, GPU training raised an exception. Falling back to CPU training...Refer to LightGBM GPU documentation: https://github.com/Microsoft/LightGBM/tree/master/python-package#build-gpu-versionOne possible method is:	pip uninstall lightgbm -y	pip install lightgbm --install-option=--gpu
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T4 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train model, roughly requires: 5.467 GB, but only 7.552 GB is available...
+	Training LightGBM/T4 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.006163502781172814, 'num_leaves': 27, 'feature_fraction': 0.824383651636118, 'min_data_in_leaf': 14, 'device': 'gpu'}
+[LightGBM] [Fatal] Check failed: (best_split_info.left_count) > (0) at /home/wuguo-buaa/tmp/pip-install-4flbbpn1/lightgbm_eb6c31e6ac6b49c59f7cb6cbd6b868e8/compile/src/treelearner/serial_tree_learner.cpp, line 653 .
+
+Warning: GPU mode might not be installed for LightGBM, GPU training raised an exception. Falling back to CPU training...Refer to LightGBM GPU documentation: https://github.com/Microsoft/LightGBM/tree/master/python-package#build-gpu-versionOne possible method is:	pip uninstall lightgbm -y	pip install lightgbm --install-option=--gpu
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/dataset_val.pkl
+	Fitting LightGBM/T5 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train model, roughly requires: 5.467 GB, but only 7.515 GB is available...
+	Training LightGBM/T5 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Fitting 100 rounds... Hyperparameters: {'learning_rate': 0.035179640321040824, 'num_leaves': 43, 'feature_fraction': 0.9479312595206661, 'min_data_in_leaf': 26, 'device': 'gpu'}
+[LightGBM] [Fatal] Check failed: (best_split_info.right_count) > (0) at /home/wuguo-buaa/tmp/pip-install-4flbbpn1/lightgbm_eb6c31e6ac6b49c59f7cb6cbd6b868e8/compile/src/treelearner/serial_tree_learner.cpp, line 663 .
+
+Warning: GPU mode might not be installed for LightGBM, GPU training raised an exception. Falling back to CPU training...Refer to LightGBM GPU documentation: https://github.com/Microsoft/LightGBM/tree/master/python-package#build-gpu-versionOne possible method is:	pip uninstall lightgbm -y	pip install lightgbm --install-option=--gpu
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Time for LightGBM model HPO: 75.54954695701599
+Best hyperparameter configuration for LightGBM model: 
+{'learning_rate': 0.06994332504138305, 'num_boost_round': 100, 'num_leaves': 29, 'feature_fraction': 0.8872033759818312, 'min_data_in_leaf': 5}
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Fitted model: LightGBM/T1 ...
+	0.995	 = Validation score   (roc_auc)
+	30.3s	 = Training   runtime
+	0.06s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Fitted model: LightGBM/T2 ...
+	0.995	 = Validation score   (roc_auc)
+	10.6s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Fitted model: LightGBM/T3 ...
+	0.995	 = Validation score   (roc_auc)
+	10.06s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Fitted model: LightGBM/T4 ...
+	0.995	 = Validation score   (roc_auc)
+	9.23s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Fitted model: LightGBM/T5 ...
+	0.995	 = Validation score   (roc_auc)
+	9.86s	 = Training   runtime
+	0.03s	 = Validation runtime
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 1104.05s of remaining time.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 3
+Ensemble weights: 
+[0.         0.66666667 0.         0.33333333 0.        ]
+	0.15s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/WeightedEnsemble_L2/model.pkl
+	0.995	 = Validation score   (roc_auc)
+	7.06s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+AutoGluon training complete, total runtime = 107.65s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T1/model.pkl
+Deleting model LightGBM/T1. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T1/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T3/model.pkl
+Deleting model LightGBM/T3. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T3/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T5/model.pkl
+Deleting model LightGBM/T5. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T5/ will be removed.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T2/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T4/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/learner.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/predictor.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/GBM/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/exp-iot23-oversample/deploy-exp/GBM/")
+
+*** End of fit() summary ***
+{'model_types': {'LightGBM/T2': 'LGBModel', 'LightGBM/T4': 'LGBModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'LightGBM/T2': 0.9950277094402203, 'LightGBM/T4': 0.9950065045435573, 'WeightedEnsemble_L2': 0.9950286637274204}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'LightGBM/T2': './auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T2/', 'LightGBM/T4': './auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/LightGBM/T4/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23-oversample/deploy-exp/GBM/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'LightGBM/T2': 10.597753286361694, 'LightGBM/T4': 9.230534315109253, 'WeightedEnsemble_L2': 7.059216737747192}, 'model_pred_times': {'LightGBM/T2': 0.03115677833557129, 'LightGBM/T4': 0.03229975700378418, 'WeightedEnsemble_L2': 0.014691352844238281}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'LightGBM/T2': {'learning_rate': 0.06994332504138305, 'num_boost_round': 100, 'num_leaves': 29, 'feature_fraction': 0.8872033759818312, 'min_data_in_leaf': 5}, 'LightGBM/T4': {'learning_rate': 0.006163502781172814, 'num_boost_round': 100, 'num_leaves': 27, 'feature_fraction': 0.824383651636118, 'min_data_in_leaf': 14}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val   fit_time  \
+0  WeightedEnsemble_L2   0.995029       0.078148  26.887504
+1          LightGBM/T2   0.995028       0.031157  10.597753
+2          LightGBM/T4   0.995007       0.032300   9.230534
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.014691           7.059217            2       True
+1                0.031157          10.597753            1       True
+2                0.032300           9.230534            1       True
+
+   fit_order
+0          3
+1          1
+2          2  }
+{
+    "roc_auc": 0.995302482046038,
+    "accuracy": 0.985723158881742,
+    "balanced_accuracy": 0.985723158881742,
+    "mcc": 0.9714630495119277,
+    "f1": 0.9857649323167553,
+    "precision": 0.9828890404359125,
+    "recall": 0.9886577030611574
+}
+2.5890183330588663e-06

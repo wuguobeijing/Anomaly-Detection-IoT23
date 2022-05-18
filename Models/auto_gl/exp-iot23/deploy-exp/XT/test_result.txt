@@ -1,0 +1,22 @@
+*** End of fit() summary ***
+{'model_types': {'ExtraTrees': 'XTModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'ExtraTrees': 0.9504222910214005, 'WeightedEnsemble_L2': 0.9509636089880142}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'ExtraTrees': './auto_gl/exp-iot23/deploy-exp/XT/models/ExtraTrees/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23/deploy-exp/XT/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'ExtraTrees': 114.92298436164856, 'WeightedEnsemble_L2': 0.010854721069335938}, 'model_pred_times': {'ExtraTrees': 61.03293991088867, 'WeightedEnsemble_L2': 0.008620977401733398}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'ExtraTrees': {'n_estimators': 300, 'n_jobs': -1, 'random_state': 0, 'bootstrap': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val    fit_time  \
+0  WeightedEnsemble_L2   0.950964      61.041561  114.933839   
+1           ExtraTrees   0.950422      61.032940  114.922984   
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.008621           0.010855            2       True   
+1               61.032940         114.922984            1       True   
+
+   fit_order  
+0          2  
+1          1  }
+{
+    "roc_auc": 0.9521784264872662,
+    "accuracy": 0.9735517812565616,
+    "balanced_accuracy": 0.9014531594470045,
+    "mcc": 0.8311850248450727,
+    "f1": 0.9855433225299856,
+    "precision": 0.9820511614963422,
+    "recall": 0.9890604083534046
+}
+{'roc_auc': 0.9270853020149593, 'accuracy': 0.9055767510698428, 'balanced_accuracy': 0.8694075933400476, 'mcc': 0.6565955180865252, 'f1': 0.9439114888909345, 'precision': 0.9701915333612668, 'recall': 0.9190176168970224}

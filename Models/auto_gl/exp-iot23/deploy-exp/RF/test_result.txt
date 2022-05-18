@@ -1,0 +1,23 @@
+*** End of fit() summary ***
+{'model_types': {'RandomForest': 'RFModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'RandomForest': 0.9502950096474029, 'WeightedEnsemble_L2': 0.950796343533818}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'RandomForest': './auto_gl/exp-iot23/deploy-exp/RF/models/RandomForest/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23/deploy-exp/RF/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'RandomForest': 127.07849740982056, 'WeightedEnsemble_L2': 0.011245489120483398}, 'model_pred_times': {'RandomForest': 52.80700635910034, 'WeightedEnsemble_L2': 0.008512020111083984}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'RandomForest': {'n_estimators': 300, 'n_jobs': -1, 'random_state': 0, 'bootstrap': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':
+ model  score_val  pred_time_val    fit_time  \
+0  WeightedEnsemble_L2   0.950796      52.815518  127.089743   
+1         RandomForest   0.950295      52.807006  127.078497   
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.008512           0.011245            2       True   
+1               52.807006         127.078497            1       True   
+
+   fit_order  
+0          2  
+1          1  }
+{
+    "roc_auc": 0.9520707773908055,
+    "accuracy": 0.9735202855609734,
+    "balanced_accuracy": 0.9012276451969046,
+    "mcc": 0.8309495826949305,
+    "f1": 0.9855265037133762,
+    "precision": 0.9820076696120213,
+    "recall": 0.9890706466235465
+}
+{'roc_auc': 0.883162684773366, 'accuracy': 0.9030783980118865, 'balanced_accuracy': 0.867875992261889, 'mcc': 0.6504776570742282, 'f1': 0.9423437809648643, 'precision': 0.9700682467588693, 'recall': 0.9161600079297719}

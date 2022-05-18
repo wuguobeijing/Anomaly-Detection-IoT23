@@ -1,0 +1,230 @@
+Loaded data from: ./Data/split/ToN-iot-train_data.csv | Columns = 41 / 41 | Rows = 368834 -> 368834
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./auto_gl/ToN-iot/deploy-exp/RFT"
+Presets specified: ['optimize_for_deployment']
+============ fit kwarg info ============
+User Specified kwargs:
+{'ag_args_fit': {'num_gpus': 1},
+ 'hyperparameter_tune_kwargs': {'num_trials': 5,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'num_bag_sets': 0,
+ 'num_stack_levels': 0,
+ 'save_space': True,
+ 'verbosity': 3}
+Full kwargs:
+{'_feature_generator_kwargs': None,
+ '_save_bag_folds': None,
+ 'ag_args': None,
+ 'ag_args_ensemble': None,
+ 'ag_args_fit': {'num_gpus': 1},
+ 'auto_stack': False,
+ 'calibrate': 'auto',
+ 'excluded_model_types': None,
+ 'feature_generator': 'auto',
+ 'feature_prune_kwargs': None,
+ 'holdout_frac': None,
+ 'hyperparameter_tune_kwargs': {'num_trials': 5,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'name_suffix': None,
+ 'num_bag_folds': None,
+ 'num_bag_sets': 0,
+ 'num_stack_levels': 0,
+ 'pseudo_data': None,
+ 'quantile_levels': None,
+ 'refit_full': False,
+ 'save_space': True,
+ 'set_best_to_refit_full': False,
+ 'unlabeled_data': None,
+ 'use_bag_holdout': False,
+ 'verbosity': 3}
+========================================
+Warning: hyperparameter tuning is currently experimental and may cause the process to hang.
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/learner.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/predictor.pkl
+Beginning AutoGluon training ... Time limit = 1200s
+AutoGluon will save models to "./auto_gl/ToN-iot/deploy-exp/RFT/"
+AutoGluon Version:  0.4.0
+Python Version:     3.8.13
+Operating System:   Linux
+Train Data Rows:    368834
+Train Data Columns: 40
+Label Column: label
+Preprocessing data ...
+AutoGluon infers your prediction problem is: 'binary' (because only two unique label-values observed).
+	2 unique label values:  [0, 1]
+	If 'binary' is not the correct problem_type, please manually specify the problem_type parameter during predictor init (You may specify problem_type as one of: ['binary', 'multiclass', 'regression'])
+Selected class <--> label mapping:  class 1 = 1, class 0 = 0
+Using Feature Generators to preprocess the data ...
+Fitting AutoMLPipelineFeatureGenerator...
+	Available Memory:                    5703.09 MB
+	Train Data (Original)  Memory Usage: 118.03 MB (2.1% of available memory)
+	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
+	Stage 1 Generators:
+		Fitting AsTypeFeatureGenerator...
+			Note: Converting 33 features to boolean dtype as they only contain 2 unique values.
+			Original Features (exact raw dtype, raw dtype):
+				('float64', 'float') :  1 | ['duration']
+				('int64', 'int')     : 39 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+			Types of features in original data (raw dtype, special dtypes):
+				('float', []) :  1 | ['duration']
+				('int', [])   : 39 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  1 | ['duration']
+				('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+				('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+			1.1s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+	Stage 2 Generators:
+		Fitting FillNaFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     :  1 | ['duration']
+				('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+				('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  1 | ['duration']
+				('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+				('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+			0.1s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+	Stage 3 Generators:
+		Fitting IdentityFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     :  1 | ['duration']
+				('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+				('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  1 | ['duration']
+				('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+				('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+			0.0s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+		Skipping CategoryFeatureGenerator: No input feature with required dtypes.
+		Skipping DatetimeFeatureGenerator: No input feature with required dtypes.
+		Skipping TextSpecialFeatureGenerator: No input feature with required dtypes.
+		Skipping TextNgramFeatureGenerator: No input feature with required dtypes.
+		Skipping IdentityFeatureGenerator: No input feature with required dtypes.
+		Skipping IsNanFeatureGenerator: No input feature with required dtypes.
+	Stage 4 Generators:
+		Fitting DropUniqueFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     :  1 | ['duration']
+				('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+				('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  1 | ['duration']
+				('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+				('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+			0.1s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+	Types of features in original data (exact raw dtype, raw dtype):
+		('float64', 'float') :  1 | ['duration']
+		('int64', 'int')     : 39 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+	Types of features in original data (raw dtype, special dtypes):
+		('float', []) :  1 | ['duration']
+		('int', [])   : 39 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+	Types of features in processed data (exact raw dtype, raw dtype):
+		('float64', 'float') :  1 | ['duration']
+		('int64', 'int')     :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+		('int8', 'int')      : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+	Types of features in processed data (raw dtype, special dtypes):
+		('float', [])     :  1 | ['duration']
+		('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+		('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+	1.6s = Fit runtime
+	40 features in original data used to generate 40 features in processed data.
+	Train Data (Processed) Memory Usage: 32.83 MB (0.6% of available memory)
+Data preprocessing and feature engineering runtime = 1.72s ...
+AutoGluon will gauge predictive performance using evaluation metric: 'roc_auc'
+	This metric expects predicted probabilities rather than predicted class labels, so you'll need to use predict_proba() instead of predict()
+	To change this, specify the eval_metric parameter of Predictor()
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/learner.pkl
+Automatically generating train/validation split with holdout_frac=0.02, Train Rows: 361457, Val Rows: 7377
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/utils/data/X.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/utils/data/y.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/utils/data/X_val.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/utils/data/y_val.pkl
+Model configs that will be trained (in order):
+	RandomForest: 	{'ag_args': {'hyperparameter_tune_kwargs': {'num_trials': 5, 'scheduler': 'local', 'searcher': 'auto'}, 'model_type': <class 'autogluon.tabular.models.rf.rf_model.RFModel'>, 'priority': 80}, 'ag_args_fit': {'num_gpus': 1}, 'ag_args_ensemble': {'use_child_oof': True}}
+Fitting 1 L1 models ...
+Hyperparameter tuning model: RandomForest ... Tuning model for up to 1078.45s of the 1198.28s of remaining time.
+Starting generic AbstractModel hyperparameter tuning for RandomForest model...
+	No hyperparameter search space specified for RandomForest. Skipping HPO. Will train one model based on the provided hyperparameters.
+	Fitting RandomForest with 'num_gpus': 1, 'num_cpus': 16
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/RandomForest/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/RFT/models/RandomForest/model.pkl
+Fitted model: RandomForest ...
+	0.9992	 = Validation score   (roc_auc)
+	20.12s	 = Training   runtime
+	7.39s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/RFT/models/RandomForest/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 1170.33s of remaining time.
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/RFT/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[1.]
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/WeightedEnsemble_L2/model.pkl
+	0.9986	 = Validation score   (roc_auc)
+	0.0s	 = Training   runtime
+	0.0s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+AutoGluon training complete, total runtime = 29.93s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/RFT/models/RandomForest/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/RandomForest/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/RFT/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/learner.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/predictor.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/RFT/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/ToN-iot/deploy-exp/RFT/")
+
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val   fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0         RandomForest   0.999164       7.394579  20.121147                7.394579          20.121147            1       True          1
+1  WeightedEnsemble_L2   0.998650       7.396449  20.125831                0.001869           0.004683            2       True          2
+Number of models trained: 2
+Types of models trained:
+{'RFModel', 'WeightedEnsembleModel'}
+Bagging used: False
+Multi-layer stack-ensembling used: False
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     :  1 | ['duration']
+('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+*** End of fit() summary ***
+{'model_types': {'RandomForest': 'RFModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'RandomForest': 0.9991644981838146, 'WeightedEnsemble_L2': 0.998649875501229}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'RandomForest': './auto_gl/ToN-iot/deploy-exp/RFT/models/RandomForest/', 'WeightedEnsemble_L2': './auto_gl/ToN-iot/deploy-exp/RFT/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'RandomForest': 20.121147394180298, 'WeightedEnsemble_L2': 0.004683494567871094}, 'model_pred_times': {'RandomForest': 7.3945794105529785, 'WeightedEnsemble_L2': 0.00186920166015625}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'RandomForest': {'n_estimators': 300, 'n_jobs': -1, 'random_state': 0, 'bootstrap': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val   fit_time  \
+0         RandomForest   0.999164       7.394579  20.121147
+1  WeightedEnsemble_L2   0.998650       7.396449  20.125831
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                7.394579          20.121147            1       True
+1                0.001869           0.004683            2       True
+
+   fit_order
+0          1
+1          2  }
+{
+    "roc_auc": 0.9992134724248916,
+    "accuracy": 0.9921482718606643,
+    "balanced_accuracy": 0.9920037207509289,
+    "mcc": 0.982758488677414,
+    "f1": 0.9887918756579354,
+    "precision": 0.9860746595856362,
+    "recall": 0.9915241081685243
+}

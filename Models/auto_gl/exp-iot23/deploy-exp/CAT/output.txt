@@ -1,0 +1,113 @@
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T1 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 2.369 GB, but only 10.273 GB is available...
+	Training CatBoost/T1 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.05, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T2 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 2.369 GB, but only 9.851 GB is available...
+	Training CatBoost/T2 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.11259896076097305, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.3713784729000733, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T2/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T3 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 2.369 GB, but only 9.826 GB is available...
+	Training CatBoost/T3 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.023861097124304616, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.1795327319875875, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T3/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T4 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 2.369 GB, but only 9.77 GB is available...
+	Training CatBoost/T4 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.014984363280426882, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 2.5375268291707993, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T4/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T5 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 2.369 GB, but only 9.772 GB is available...
+	Training CatBoost/T5 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.02057151708150835, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 4.854651042004117, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T5/model.pkl
+Time for CatBoost model HPO: 291.48249769210815
+Best hyperparameter configuration for CatBoost model: 
+{'iterations': 10000, 'learning_rate': 0.023861097124304616, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.1795327319875875}
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T1/model.pkl
+Fitted model: CatBoost/T1 ...
+	0.9509	 = Validation score   (roc_auc)
+	29.41s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T2/model.pkl
+Fitted model: CatBoost/T2 ...
+	0.9509	 = Validation score   (roc_auc)
+	33.28s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T3/model.pkl
+Fitted model: CatBoost/T3 ...
+	0.9509	 = Validation score   (roc_auc)
+	60.92s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T4/model.pkl
+Fitted model: CatBoost/T4 ...
+	0.9509	 = Validation score   (roc_auc)
+	99.71s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T5/model.pkl
+Fitted model: CatBoost/T5 ...
+	0.9509	 = Validation score   (roc_auc)
+	66.32s	 = Training   runtime
+	0.02s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T2/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T3/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T4/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T5/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 896.7s of remaining time.
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 34
+Ensemble weights: 
+[0.02941176 0.         0.47058824 0.         0.5       ]
+	0.13s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/WeightedEnsemble_L2/model.pkl
+	0.9509	 = Validation score   (roc_auc)
+	4.0s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+AutoGluon training complete, total runtime = 309.55s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T2/model.pkl
+Deleting model CatBoost/T2. All files under ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T2/ will be removed.
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T4/model.pkl
+Deleting model CatBoost/T4. All files under ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T4/ will be removed.
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T1/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T3/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T3/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T5/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T5/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/CAT/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/learner.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/predictor.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/CAT/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/exp-iot23/deploy-exp/CAT/")

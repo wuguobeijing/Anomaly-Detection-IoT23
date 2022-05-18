@@ -1,0 +1,195 @@
+Presets specified: ['optimize_for_deployment']
+============ fit kwarg info ============
+User Specified kwargs:
+{'ag_args_fit': {'num_gpus': 1},
+ 'hyperparameter_tune_kwargs': {'num_trials': 5,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'num_bag_sets': 0,
+ 'num_stack_levels': 0,
+ 'save_space': True,
+ 'verbosity': 3}
+Full kwargs:
+{'_feature_generator_kwargs': None,
+ '_save_bag_folds': None,
+ 'ag_args': None,
+ 'ag_args_ensemble': None,
+ 'ag_args_fit': {'num_gpus': 1},
+ 'auto_stack': False,
+ 'calibrate': 'auto',
+ 'excluded_model_types': None,
+ 'feature_generator': 'auto',
+ 'feature_prune_kwargs': None,
+ 'holdout_frac': None,
+ 'hyperparameter_tune_kwargs': {'num_trials': 5,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'name_suffix': None,
+ 'num_bag_folds': None,
+ 'num_bag_sets': 0,
+ 'num_stack_levels': 0,
+ 'pseudo_data': None,
+ 'quantile_levels': None,
+ 'refit_full': False,
+ 'save_space': True,
+ 'set_best_to_refit_full': False,
+ 'unlabeled_data': None,
+ 'use_bag_holdout': False,
+ 'verbosity': 3}
+========================================
+Warning: hyperparameter tuning is currently experimental and may cause the process to hang.
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/learner.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/predictor.pkl
+Beginning AutoGluon training ... Time limit = 1200s
+AutoGluon will save models to "./auto_gl/exp-iot23/deploy-exp/XT/"
+AutoGluon Version:  0.4.0
+Python Version:     3.8.13
+Operating System:   Linux
+Train Data Rows:    3429040
+Train Data Columns: 30
+Label Column: label
+Preprocessing data ...
+AutoGluon infers your prediction problem is: 'binary' (because only two unique label-values observed).
+	2 unique label values:  ['Malicious', 'Benign']
+	If 'binary' is not the correct problem_type, please manually specify the problem_type parameter during predictor init (You may specify problem_type as one of: ['binary', 'multiclass', 'regression'])
+Selected class <--> label mapping:  class 1 = Malicious, class 0 = Benign
+	Note: For your binary classification, AutoGluon arbitrarily selected which label-value represents positive (Malicious) vs negative (Benign) class.
+	To explicitly set the positive_class, either rename classes to 1 and 0, or specify positive_class in Predictor init.
+Using Feature Generators to preprocess the data ...
+Fitting AutoMLPipelineFeatureGenerator...
+	Available Memory:                    10391.58 MB
+	Train Data (Original)  Memory Usage: 822.97 MB (7.9% of available memory)
+	Warning: Data size prior to feature transformation consumes 7.9% of available memory. Consider increasing memory or subsampling the data to avoid instability.
+	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
+	Stage 1 Generators:
+		Fitting AsTypeFeatureGenerator...
+			Note: Converting 22 features to boolean dtype as they only contain 2 unique values.
+			Original Features (exact raw dtype, raw dtype):
+				('float64', 'float') :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int64', 'int')     : 24 | ['orig_bytes', 'resp_bytes', 'proto_icmp', 'proto_tcp', 'proto_udp', ...]
+			Types of features in original data (raw dtype, special dtypes):
+				('float', []) :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])   : 24 | ['orig_bytes', 'resp_bytes', 'proto_icmp', 'proto_tcp', 'proto_udp', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+				('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+			6.3s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+	Stage 2 Generators:
+		Fitting FillNaFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+				('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+				('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+			0.5s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+	Stage 3 Generators:
+		Fitting IdentityFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+				('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+				('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+			0.4s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+		Skipping CategoryFeatureGenerator: No input feature with required dtypes.
+		Skipping DatetimeFeatureGenerator: No input feature with required dtypes.
+		Skipping TextSpecialFeatureGenerator: No input feature with required dtypes.
+		Skipping TextNgramFeatureGenerator: No input feature with required dtypes.
+		Skipping IdentityFeatureGenerator: No input feature with required dtypes.
+		Skipping IsNanFeatureGenerator: No input feature with required dtypes.
+	Stage 4 Generators:
+		Fitting DropUniqueFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+				('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+				('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+				('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+			0.9s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+	Types of features in original data (exact raw dtype, raw dtype):
+		('float64', 'float') :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+		('int64', 'int')     : 24 | ['orig_bytes', 'resp_bytes', 'proto_icmp', 'proto_tcp', 'proto_udp', ...]
+	Types of features in original data (raw dtype, special dtypes):
+		('float', []) :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+		('int', [])   : 24 | ['orig_bytes', 'resp_bytes', 'proto_icmp', 'proto_tcp', 'proto_udp', ...]
+	Types of features in processed data (exact raw dtype, raw dtype):
+		('float64', 'float') :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+		('int64', 'int')     :  2 | ['orig_bytes', 'resp_bytes']
+		('int8', 'int')      : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+	Types of features in processed data (raw dtype, special dtypes):
+		('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+		('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+		('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+	10.0s = Fit runtime
+	30 features in original data used to generate 30 features in processed data.
+	Train Data (Processed) Memory Usage: 294.9 MB (2.8% of available memory)
+Data preprocessing and feature engineering runtime = 11.14s ...
+AutoGluon will gauge predictive performance using evaluation metric: 'roc_auc'
+	This metric expects predicted probabilities rather than predicted class labels, so you'll need to use predict_proba() instead of predict()
+	To change this, specify the eval_metric parameter of Predictor()
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/learner.pkl
+Automatically generating train/validation split with holdout_frac=0.02, Train Rows: 3360459, Val Rows: 68581
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/utils/data/X.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/utils/data/y.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/utils/data/X_val.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/utils/data/y_val.pkl
+Model configs that will be trained (in order):
+	ExtraTrees: 	{'ag_args': {'hyperparameter_tune_kwargs': {'num_trials': 5, 'scheduler': 'local', 'searcher': 'auto'}, 'model_type': <class 'autogluon.tabular.models.xt.xt_model.XTModel'>, 'priority': 60}, 'ag_args_fit': {'num_gpus': 1}, 'ag_args_ensemble': {'use_child_oof': True}}
+Fitting 1 L1 models ...
+Hyperparameter tuning model: ExtraTrees ... Tuning model for up to 1069.97s of the 1188.86s of remaining time.
+Starting generic AbstractModel hyperparameter tuning for ExtraTrees model...
+	No hyperparameter search space specified for ExtraTrees. Skipping HPO. Will train one model based on the provided hyperparameters.
+	Fitting ExtraTrees with 'num_gpus': 1, 'num_cpus': 16
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/ExtraTrees/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XT/models/ExtraTrees/model.pkl
+Fitted model: ExtraTrees ...
+	0.9504	 = Validation score   (roc_auc)
+	114.92s	 = Training   runtime
+	61.03s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XT/models/ExtraTrees/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 1009.54s of remaining time.
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XT/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[1.]
+	0.06s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/WeightedEnsemble_L2/model.pkl
+	0.951	 = Validation score   (roc_auc)
+	0.01s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+AutoGluon training complete, total runtime = 192.57s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XT/models/ExtraTrees/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/ExtraTrees/model.pkl
+Loading: ./auto_gl/exp-iot23/deploy-exp/XT/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/models/trainer.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/learner.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/predictor.pkl
+Saving ./auto_gl/exp-iot23/deploy-exp/XT/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/exp-iot23/deploy-exp/XT/")

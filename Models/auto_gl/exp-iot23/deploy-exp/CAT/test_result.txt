@@ -1,0 +1,46 @@
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.950929       0.100000  160.654288                0.008347           3.997979            2       True          4
+1          CatBoost/T3   0.950922       0.018343   60.923113                0.018343          60.923113            1       True          2
+2          CatBoost/T5   0.950921       0.019332   66.322246                0.019332          66.322246            1       True          3
+3          CatBoost/T1   0.950904       0.053978   29.410949                0.053978          29.410949            1       True          1
+Number of models trained: 4
+Types of models trained:
+{'WeightedEnsembleModel', 'CatBoostModel'}
+Bagging used: False 
+Multi-layer stack-ensembling used: False 
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+*** End of fit() summary ***
+{'model_types': {'CatBoost/T1': 'CatBoostModel', 'CatBoost/T3': 'CatBoostModel', 'CatBoost/T5': 'CatBoostModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'CatBoost/T1': 0.9509039779674231, 'CatBoost/T3': 0.9509219095725808, 'CatBoost/T5': 0.9509210029776111, 'WeightedEnsemble_L2': 0.9509285034697154}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'CatBoost/T1': './auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T1/', 'CatBoost/T3': './auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T3/', 'CatBoost/T5': './auto_gl/exp-iot23/deploy-exp/CAT/models/CatBoost/T5/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23/deploy-exp/CAT/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'CatBoost/T1': 29.41094946861267, 'CatBoost/T3': 60.923112869262695, 'CatBoost/T5': 66.32224631309509, 'WeightedEnsemble_L2': 3.9979794025421143}, 'model_pred_times': {'CatBoost/T1': 0.05397772789001465, 'CatBoost/T3': 0.018343448638916016, 'CatBoost/T5': 0.019332170486450195, 'WeightedEnsemble_L2': 0.008347034454345703}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'CatBoost/T1': {'iterations': 10000, 'learning_rate': 0.05, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3}, 'CatBoost/T3': {'iterations': 10000, 'learning_rate': 0.023861097124304616, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.1795327319875875}, 'CatBoost/T5': {'iterations': 10000, 'learning_rate': 0.02057151708150835, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 4.854651042004117}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':
+model  score_val  pred_time_val    fit_time  \
+0  WeightedEnsemble_L2   0.950929       0.100000  160.654288   
+1          CatBoost/T3   0.950922       0.018343   60.923113   
+2          CatBoost/T5   0.950921       0.019332   66.322246   
+3          CatBoost/T1   0.950904       0.053978   29.410949   
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.008347           3.997979            2       True   
+1                0.018343          60.923113            1       True   
+2                0.019332          66.322246            1       True   
+3                0.053978          29.410949            1       True   
+
+   fit_order  
+0          4  
+1          2  
+2          3  
+3          1  }
+{
+    "roc_auc": 0.9521833247408138,
+    "accuracy": 0.9740755430091221,
+    "balanced_accuracy": 0.9074461693399158,
+    "mcc": 0.8356955128195039,
+    "f1": 0.9858163270516034,
+    "precision": 0.9832384880775058,
+    "recall": 0.9884077186318599
+}
+{'roc_auc': 0.9257941572254593, 'accuracy': 0.8794281317339399, 'balanced_accuracy': 0.8568853282564046, 'mcc': 0.6008828040621597, 'f1': 0.9271754637003073, 'precision': 0.9701994466585124, 'recall': 0.8878052910577365}

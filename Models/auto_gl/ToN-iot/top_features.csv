@@ -1,0 +1,184 @@
+src_ip_bytes,proto_tcp,src_bytes,dst_ip_bytes,src_pkts,duration,dst_bytes,conn_state_REJ,dns_rejected_T,conn_state_S0,dst_pkts,conn_state_OTH,conn_state_RSTRH,proto_udp,service_-,conn_state_RSTO,dns_qtype_12,conn_state_S1,dns_RD_F,conn_state_SF,proto_icmp,http_version_1.1,http_status_code_200,http_version_-,service_ftp,http_status_code_0,dns_rejected_F,dns_qclass_0,dns_rcode_3,dns_qtype_28,service_dns,dns_RA_F,conn_state_RSTR,dns_rcode_2,service_ssl,service_gssapi,service_smb
+dns_qclass_1,service_http,service_dce_rpc
+
+,importance,stddev,p_value,n,p99_high,p99_low
+src_ip_bytes,0.031709,0.001510,0.000378,3,0.040362,0.023057
+proto_tcp,0.010496,0.000922,0.001281,3,0.015780,0.005212
+src_bytes,0.004465,0.000641,0.003398,3,0.008137,0.000793
+dst_ip_bytes,0.004044,0.000718,0.005172,3,0.008158,-0.000070
+src_pkts,0.001439,0.000256,0.005194,3,0.002905,-0.000028
+duration,0.001089,0.001027,0.103790,3,0.006972,-0.004794
+dst_bytes,0.001022,0.000394,0.023050,3,0.003280,-0.001235
+conn_state_REJ,0.000385,0.000486,0.151625,3,0.003170,-0.002399
+dns_rejected_T,0.000335,0.000225,0.061437,3,0.001623,-0.000953
+conn_state_S0,0.000273,0.000069,0.010262,3,0.000667,-0.000121
+dst_pkts,0.000237,0.000055,0.008899,3,0.000554,-0.000081
+conn_state_OTH,0.000159,0.000027,0.004740,3,0.000315,0.000004
+conn_state_RSTRH,0.000104,0.000060,0.047192,3,0.000447,-0.000239
+proto_udp,0.000087,0.000057,0.059872,3,0.000415,-0.000241
+service_-,0.000066,0.000070,0.123378,3,0.000467,-0.000336
+conn_state_RSTO,0.000062,0.000097,0.190638,3,0.000616,-0.000492
+dns_qtype_12,0.000046,0.000017,0.020289,3,0.000142,-0.000049
+conn_state_S1,0.000034,0.000008,0.009381,3,0.000082,-0.000013
+dns_RD_F,0.000031,0.000013,0.026624,3,0.000104,-0.000042
+conn_state_SF,0.000026,0.000039,0.179456,3,0.000248,-0.000196
+proto_icmp,0.000017,0.000021,0.143148,3,0.000136,-0.000101
+http_version_1.1,0.000013,0.000023,0.211325,3,0.000142,-0.000116
+http_status_code_200,0.000013,0.000023,0.211325,3,0.000142,-0.000116
+http_version_-,0.000013,0.000023,0.211325,3,0.000142,-0.000116
+service_ftp,0.000012,0.000011,0.105930,3,0.000077,-0.000053
+http_status_code_0,0.000012,0.000020,0.211325,3,0.000126,-0.000103
+dns_rejected_F,0.000009,0.000006,0.057610,3,0.000041,-0.000024
+dns_qclass_0,0.000008,0.000021,0.281943,3,0.000126,-0.000110
+dns_rcode_3,0.000007,0.000018,0.283267,3,0.000113,-0.000098
+dns_qtype_28,0.000007,0.000013,0.211325,3,0.000079,-0.000065
+service_dns,0.000006,0.000034,0.394820,3,0.000202,-0.000190
+dns_RA_F,0.000006,0.000007,0.141909,3,0.000046,-0.000034
+conn_state_RSTR,0.000006,0.000007,0.135113,3,0.000044,-0.000032
+dns_rcode_2,0.000006,0.000010,0.211325,3,0.000063,-0.000051
+service_ssl,0.000006,0.000030,0.389331,3,0.000177,-0.000166
+service_gssapi,0.000004,0.000004,0.110207,3,0.000029,-0.000020
+service_smb,0.000004,0.000008,0.211325,3,0.000047,-0.000039
+dns_qclass_1,0.000004,0.000003,0.069241,3,0.000019,-0.000012
+service_http,0.000004,0.000048,0.453528,3,0.000277,-0.000270
+service_dce_rpc,0.000003,0.000005,0.211325,3,0.000033,-0.000027
+dns_RD_-,2.955602e-06,1.369433e-06,0.032347,3,1.080261e-05,-4.891404e-06
+ssl_resumed_-,2.886619e-06,2.499907e-06,0.091753,3,1.721136e-05,-1.143812e-05
+dns_RA_-,2.170139e-06,3.758791e-06,0.211325,3,2.370843e-05,-1.936815e-05
+weird_notice_F,2.104606e-06,7.906728e-06,0.345026,3,4.741104e-05,-4.320182e-05
+dns_rejected_-,7.561460e-07,1.309683e-06,0.211325,3,8.260776e-06,-6.748484e-06
+weird_name_-,6.578470e-07,5.552949e-06,0.428205,3,3.247686e-05,-3.116116e-05
+weird_notice_-,6.578470e-07,5.552949e-06,0.428205,3,3.247686e-05,-3.116116e-05
+ssl_established_-,3.700743e-17,6.409876e-17,0.211325,3,4.043004e-16,-3.302855e-16
+http_status_code_403,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_status_code_404,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Ruby,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (iPhone; U; CPU iOS 2_0 like Mac OS X; en-us),0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/4.0; InfoPath.2; SV1; .NET CLR 2.0.50727; WOW64),0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:66.0) Gecko/20100101 Firefox/66.0,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (X11; U; Linux i686; de-DE; rv:1.6) Gecko/20040207 Firefox/0.8,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.30 (KHTML; like Gecko) Version/4.0 Oupeng/10.2.1.86910 Safari/534.30,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (Windows NT 6.3; rv:36.0) Gecko/20100101 Firefox/36.0,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:5.0) Whistler/20110021 myibrow/5.0.0.0,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (Windows NT 6.1; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML; like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763,0.000000e+00,0.000000e+00,0.500000,3,0.000000e+00,0.000000e+00
+http_user_agent_Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_0) AppleWebKit/537.36 (KHTML; like Gecko) Chrome/53.0.2785.143 Safari/537.36,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Mozilla/5.0 (Macintosh; Intel Mac OS X 10.11; rv:49.0) Gecko/20100101 Firefox/49.0,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Mozilla/1.22 (compatible; MSIE 10.0; Windows 3.1),0.0,0.0,0.5,3,0.0,0.0
+http_status_code_304,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Microsoft-Windows/10.0 UPnP/1.0 Microsoft-DLNA DLNADOC/1.50,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Microsoft-Windows/10.0 UPnP/1.0,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_User-Agent: Microsoft-DLNA DLNADOC/1.50,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Microsoft-WNS/10.0,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Microsoft-Delivery-Optimization/10.0,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Microsoft-CryptoAPI/10.0,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Microsoft NCSI,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Microsoft BITS/7.8,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_MICROSOFT_DEVICE_METADATA_RETRIEVAL_CLIENT,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_DonutP; Windows98SE,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Debian APT-HTTP/1.3 (1.7.4),0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_DataCha0s/2.0,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_DAFUPnP,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Comos/0.9_(robot@xyleme.com),0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_-,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_16,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_hacking,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_Windows-Update-Agent/10.0.10011.16384 Client-Protocol/1.91,0.0,0.0,0.5,3,0.0,0.0
+http_status_code_206,0.0,0.0,0.5,3,0.0,0.0
+weird_addl_48,0.0,0.0,0.5,3,0.0,0.0
+weird_addl_46,0.0,0.0,0.5,3,0.0,0.0
+weird_addl_43,0.0,0.0,0.5,3,0.0,0.0
+weird_addl_-,0.0,0.0,0.5,3,0.0,0.0
+weird_name_possible_split_routing,0.0,0.0,0.5,3,0.0,0.0
+weird_name_inappropriate_FIN,0.0,0.0,0.5,3,0.0,0.0
+weird_name_dnp3_corrupt_header_checksum,0.0,0.0,0.5,3,0.0,0.0
+weird_name_data_before_established,0.0,0.0,0.5,3,0.0,0.0
+weird_name_connection_originator_SYN_ack,0.0,0.0,0.5,3,0.0,0.0
+weird_name_bad_UDP_checksum,0.0,0.0,0.5,3,0.0,0.0
+weird_name_bad_TCP_checksum,0.0,0.0,0.5,3,0.0,0.0
+weird_name_active_connection_reuse,0.0,0.0,0.5,3,0.0,0.0
+weird_name_above_hole_data_without_any_acks,0.0,0.0,0.5,3,0.0,0.0
+weird_name_TCP_ack_underflow_or_misorder,0.0,0.0,0.5,3,0.0,0.0
+weird_name_DNS_RR_unknown_type,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_text/plain,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_text/json,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_text/html,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_image/png,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_image/jpeg,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_application/xml,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_application/x-debian-package,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_application/vnd.ms-cab-compressed,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_application/ocsp-response,0.0,0.0,0.5,3,0.0,0.0
+http_resp_mime_types_-,0.0,0.0,0.5,3,0.0,0.0
+http_orig_mime_types_application/xml,0.0,0.0,0.5,3,0.0,0.0
+http_orig_mime_types_application/soap+xml,0.0,0.0,0.5,3,0.0,0.0
+http_orig_mime_types_-,0.0,0.0,0.5,3,0.0,0.0
+http_user_agent_sqlmap/1.2#stable (http://sqlmap.org),0.0,0.0,0.5,3,0.0,0.0
+http_status_code_302,0.0,0.0,0.5,3,0.0,0.0
+ssl_issuer_-,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_6,0.0,0.0,0.5,3,0.0,0.0
+ssl_version_TLSv12,0.0,0.0,0.5,3,0.0,0.0
+ssl_established_F,0.0,0.0,0.5,3,0.0,0.0
+ssl_resumed_T,0.0,0.0,0.5,3,0.0,0.0
+ssl_resumed_F,0.0,0.0,0.5,3,0.0,0.0
+http_status_code_101,0.0,0.0,0.5,3,0.0,0.0
+ssl_cipher_TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384,0.0,0.0,0.5,3,0.0,0.0
+ssl_cipher_TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA,0.0,0.0,0.5,3,0.0,0.0
+ssl_cipher_TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256,0.0,0.0,0.5,3,0.0,0.0
+ssl_cipher_TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256,0.0,0.0,0.5,3,0.0,0.0
+ssl_cipher_TLS_AES_128_GCM_SHA256,0.0,0.0,0.5,3,0.0,0.0
+ssl_cipher_-,0.0,0.0,0.5,3,0.0,0.0
+ssl_version_TLSv13,0.0,0.0,0.5,3,0.0,0.0
+ssl_version_TLSv10,0.0,0.0,0.5,3,0.0,0.0
+ssl_subject_-,0.0,0.0,0.5,3,0.0,0.0
+ssl_version_-,0.0,0.0,0.5,3,0.0,0.0
+conn_state_S2,0.0,0.0,0.5,3,0.0,0.0
+dns_qclass_32769,0.0,0.0,0.5,3,0.0,0.0
+dns_rcode_5,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_2,0.0,0.0,0.5,3,0.0,0.0
+dns_rcode_1,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_255,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_48,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_43,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_33,0.0,0.0,0.5,3,0.0,0.0
+dns_qtype_32,0.0,0.0,0.5,3,0.0,0.0
+ssl_established_T,0.0,0.0,0.5,3,0.0,0.0
+conn_state_RSTOS0,0.0,0.0,0.5,3,0.0,0.0
+ssl_subject_CN=*.events.data.microsoft.com;OU=Microsoft;O=Microsoft Corporation;L=Redmond;ST=WA;C=US,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_3,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_9,0.0,0.0,0.5,3,0.0,0.0
+http_method_HEAD,0.0,0.0,0.5,3,0.0,0.0
+http_method_POST,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_8,0.0,0.0,0.5,3,0.0,0.0
+service_dhcp,0.0,0.0,0.5,3,0.0,0.0
+ssl_subject_CN=*.wns.windows.com,0.0,0.0,0.5,3,0.0,0.0
+http_response_body_len,0.0,0.0,0.5,3,0.0,0.0
+http_request_body_len,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_7,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_6,0.0,0.0,0.5,3,0.0,0.0
+http_method_-,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_4,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_2,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_1,0.0,0.0,0.5,3,0.0,0.0
+http_trans_depth_-,0.0,0.0,0.5,3,0.0,0.0
+ssl_issuer_CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE,0.0,0.0,0.5,3,0.0,0.0
+ssl_issuer_CN=Microsoft Update Secure Server CA 2.1;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,0.000000,0.000000,0.500000,3,0.000000,0.000000
+ssl_issuer_CN=Microsoft Secure Server CA 2011;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,0.000000,0.000000,0.500000,3,0.000000,0.000000
+ssl_issuer_CN=Microsoft IT TLS CA 5;OU=Microsoft IT;O=Microsoft Corporation;L=Redmond;ST=Washington;C=US,0.000000,0.000000,0.500000,3,0.000000,0.000000
+service_smb;gssapi,0.000000,0.000000,0.500000,3,0.000000,0.000000
+ssl_subject_CN=sls.update.microsoft.com;OU=DSP;O=Microsoft;L=Redmond;ST=WA;C=US,0.000000,0.000000,0.500000,3,0.000000,0.000000
+ssl_subject_CN=settings-win.data.microsoft.com;OU=WSE;O=Microsoft;L=Redmond;ST=WA;C=US,0.000000,0.000000,0.500000,3,0.000000,0.000000
+ssl_subject_CN=Mr Shepherd;OU=Security Shepherd Project;O=OWASP;L=Dublin;ST=Ireland;C=IE,0.000000,0.000000,0.500000,3,0.000000,0.000000
+http_method_GET,0.000000,0.000000,0.500000,3,0.000000,0.000000
+dns_qtype_0,-0.000002,0.000031,0.541147,3,0.000177,-0.000181
+conn_state_SHR,-0.000003,0.000016,0.608378,3,0.000090,-0.000096
+dns_rcode_0,-0.000004,0.000008,0.737546,3,0.000043,-0.000051
+missed_bytes,-0.000006,0.000017,0.703658,3,0.000093,-0.000105
+dns_AA_T,-0.000007,0.000018,0.706260,3,0.000095,-0.000108
+dns_AA_-,-0.000010,0.000004,0.972078,3,0.000015,-0.000035
+conn_state_SH,-0.000012,0.000137,0.552804,3,0.000771,-0.000795
+conn_state_S3,-0.000026,0.000088,0.671171,3,0.000478,-0.000531
+dns_RD_T,-0.000041,0.000112,0.705264,3,0.000601,-0.000683
+dns_AA_F,-0.000042,0.000064,0.815161,3,0.000322,-0.000407
+dns_RA_T,-0.000066,0.000150,0.736224,3,0.000794,-0.000925
+dns_qtype_1,-0.000085,0.000161,0.772082,3,0.000839,-0.001010

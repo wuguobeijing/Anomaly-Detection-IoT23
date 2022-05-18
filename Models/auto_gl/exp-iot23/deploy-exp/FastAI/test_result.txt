@@ -1,0 +1,37 @@
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val     fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0   NeuralNetFastAI/T1   0.947578       0.834242  1054.522750                0.834242        1054.522750            1       True          1
+1  WeightedEnsemble_L2   0.947574       0.843160  1054.534564                0.008919           0.011814            2       True          2
+Number of models trained: 2
+Types of models trained:
+{'NNFastAiTabularModel', 'WeightedEnsembleModel'}
+Bagging used: False 
+Multi-layer stack-ensembling used: False 
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     :  6 | ['duration', 'missed_bytes', 'orig_pkts', 'orig_ip_bytes', 'resp_pkts', ...]
+('int', [])       :  2 | ['orig_bytes', 'resp_bytes']
+('int', ['bool']) : 22 | ['proto_icmp', 'proto_tcp', 'proto_udp', 'service_-', 'service_dhcp', ...]
+*** End of fit() summary ***
+{'model_types': {'NeuralNetFastAI/T1': 'NNFastAiTabularModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'NeuralNetFastAI/T1': 0.9475777284614711, 'WeightedEnsemble_L2': 0.947574048054857}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'NeuralNetFastAI/T1': './auto_gl/exp-iot23/deploy-exp/FastAI/models/NeuralNetFastAI/T1/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23/deploy-exp/FastAI/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'NeuralNetFastAI/T1': 1054.5227499008179, 'WeightedEnsemble_L2': 0.011814117431640625}, 'model_pred_times': {'NeuralNetFastAI/T1': 0.8342416286468506, 'WeightedEnsemble_L2': 0.008918523788452148}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'NeuralNetFastAI/T1': {'layers': None, 'emb_drop': 0.1, 'ps': 0.1, 'bs': 256, 'lr': 0.01, 'epochs': 30, 'early.stopping.min_delta': 0.0001, 'early.stopping.patience': 20, 'smoothing': 0.0}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val     fit_time  \
+0   NeuralNetFastAI/T1   0.947578       0.834242  1054.522750   
+1  WeightedEnsemble_L2   0.947574       0.843160  1054.534564   
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.834242        1054.522750            1       True   
+1                0.008919           0.011814            2       True   
+
+   fit_order  
+0          1  
+1          2  }
+{
+    "roc_auc": 0.9494065602088613,
+    "accuracy": 0.9736007745608101,
+    "balanced_accuracy": 0.905436541121603,
+    "mcc": 0.8325283149441507,
+    "f1": 0.9855582421271011,
+    "precision": 0.9828681470997402,
+    "recall": 0.988263103066106
+}
+{'roc_auc': 0.9153114525154209, 'accuracy': 0.8807571113082879, 'balanced_accuracy': 0.8559912826559205, 'mcc': 0.6019354898893099, 'f1': 0.928082291343417, 'precision': 0.9696163150259366, 'recall': 0.8899603717906622}

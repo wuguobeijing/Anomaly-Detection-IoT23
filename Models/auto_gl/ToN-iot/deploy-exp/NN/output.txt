@@ -1,0 +1,521 @@
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_val.pkl
+	Fitting NeuralNetTorch/T1 with 'num_gpus': 1, 'num_cpus': 8
+Tabular Neural Network treats features as the following types:
+{
+    "continuous": [],
+    "skewed": [
+        "src_ip_bytes",
+        "src_bytes",
+        "dst_ip_bytes",
+        "src_pkts",
+        "duration",
+        "dst_bytes",
+        "dst_pkts"
+    ],
+    "onehot": [],
+    "embed": [],
+    "language": [],
+    "bool": [
+        "proto_tcp",
+        "conn_state_REJ",
+        "dns_rejected_T",
+        "conn_state_S0",
+        "conn_state_OTH",
+        "conn_state_RSTRH",
+        "proto_udp",
+        "service_-",
+        "conn_state_RSTO",
+        "dns_qtype_12",
+        "conn_state_S1",
+        "dns_RD_F",
+        "conn_state_SF",
+        "proto_icmp",
+        "http_version_1.1",
+        "http_status_code_200",
+        "http_version_-",
+        "service_ftp",
+        "http_status_code_0",
+        "dns_rejected_F",
+        "dns_qclass_0",
+        "dns_rcode_3",
+        "dns_qtype_28",
+        "service_dns",
+        "dns_RA_F",
+        "conn_state_RSTR",
+        "dns_rcode_2",
+        "service_ssl",
+        "service_gssapi",
+        "service_smb",
+        "dns_qclass_1",
+        "service_http",
+        "service_dce_rpc"
+    ]
+}
+
+
+Training data for TabularNeuralNetTorchModel has: 361457 examples, 40 features (40 vector, 0 embedding)
+Training on GPU
+Neural network architecture:
+EmbedNet(
+  (main_block): Sequential(
+    (0): Linear(in_features=40, out_features=128, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.1, inplace=False)
+    (3): Linear(in_features=128, out_features=128, bias=True)
+    (4): ReLU()
+    (5): Linear(in_features=128, out_features=2, bias=True)
+  )
+  (softmax): Softmax(dim=1)
+)
+Training tabular neural network for up to 5 epochs...
+Epoch 1 (Update 1411).	Train loss: 0.1721, Val roc_auc: 0.9925, Best Epoch: 1
+Epoch 2 (Update 2822).	Train loss: 0.094, Val roc_auc: 0.9964, Best Epoch: 2
+Epoch 3 (Update 4233).	Train loss: 0.0678, Val roc_auc: 0.9975, Best Epoch: 3
+Epoch 4 (Update 5644).	Train loss: 0.0578, Val roc_auc: 0.9977, Best Epoch: 4
+Epoch 5 (Update 7055).	Train loss: 0.0528, Val roc_auc: 0.9979, Best Epoch: 5
+Best model found on Epoch 5 (Update 7055). Val roc_auc: 0.9979153327512612
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_val.pkl
+	Fitting NeuralNetTorch/T2 with 'num_gpus': 1, 'num_cpus': 8
+Tabular Neural Network treats features as the following types:
+{
+    "continuous": [],
+    "skewed": [
+        "src_ip_bytes",
+        "src_bytes",
+        "dst_ip_bytes",
+        "src_pkts",
+        "duration",
+        "dst_bytes",
+        "dst_pkts"
+    ],
+    "onehot": [],
+    "embed": [],
+    "language": [],
+    "bool": [
+        "proto_tcp",
+        "conn_state_REJ",
+        "dns_rejected_T",
+        "conn_state_S0",
+        "conn_state_OTH",
+        "conn_state_RSTRH",
+        "proto_udp",
+        "service_-",
+        "conn_state_RSTO",
+        "dns_qtype_12",
+        "conn_state_S1",
+        "dns_RD_F",
+        "conn_state_SF",
+        "proto_icmp",
+        "http_version_1.1",
+        "http_status_code_200",
+        "http_version_-",
+        "service_ftp",
+        "http_status_code_0",
+        "dns_rejected_F",
+        "dns_qclass_0",
+        "dns_rcode_3",
+        "dns_qtype_28",
+        "service_dns",
+        "dns_RA_F",
+        "conn_state_RSTR",
+        "dns_rcode_2",
+        "service_ssl",
+        "service_gssapi",
+        "service_smb",
+        "dns_qclass_1",
+        "service_http",
+        "service_dce_rpc"
+    ]
+}
+
+
+Training data for TabularNeuralNetTorchModel has: 361457 examples, 40 features (40 vector, 0 embedding)
+Training on GPU
+Neural network architecture:
+EmbedNet(
+  (main_block): Sequential(
+    (0): Linear(in_features=40, out_features=256, bias=True)
+    (1): ReLU()
+    (2): Dropout(p=0.29642230911250916, inplace=False)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): ReLU()
+    (5): Dropout(p=0.29642230911250916, inplace=False)
+    (6): Linear(in_features=256, out_features=256, bias=True)
+    (7): ReLU()
+    (8): Dropout(p=0.29642230911250916, inplace=False)
+    (9): Linear(in_features=256, out_features=256, bias=True)
+    (10): ReLU()
+    (11): Linear(in_features=256, out_features=2, bias=True)
+  )
+  (softmax): Softmax(dim=1)
+)
+Training tabular neural network for up to 5 epochs...
+Epoch 1 (Update 1411).	Train loss: 0.1206, Val roc_auc: 0.997, Best Epoch: 1
+Epoch 2 (Update 2822).	Train loss: 0.08, Val roc_auc: 0.9971, Best Epoch: 2
+Epoch 3 (Update 4233).	Train loss: 0.0797, Val roc_auc: 0.9961, Best Epoch: 2
+Epoch 4 (Update 5644).	Train loss: 0.0848, Val roc_auc: 0.9975, Best Epoch: 4
+Epoch 5 (Update 7055).	Train loss: 0.0727, Val roc_auc: 0.9976, Best Epoch: 5
+Best model found on Epoch 5 (Update 7055). Val roc_auc: 0.9976253476264388
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T2/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_val.pkl
+	Fitting NeuralNetTorch/T3 with 'num_gpus': 1, 'num_cpus': 8
+Tabular Neural Network treats features as the following types:
+{
+    "continuous": [],
+    "skewed": [
+        "src_ip_bytes",
+        "src_bytes",
+        "dst_ip_bytes",
+        "src_pkts",
+        "duration",
+        "dst_bytes",
+        "dst_pkts"
+    ],
+    "onehot": [],
+    "embed": [],
+    "language": [],
+    "bool": [
+        "proto_tcp",
+        "conn_state_REJ",
+        "dns_rejected_T",
+        "conn_state_S0",
+        "conn_state_OTH",
+        "conn_state_RSTRH",
+        "proto_udp",
+        "service_-",
+        "conn_state_RSTO",
+        "dns_qtype_12",
+        "conn_state_S1",
+        "dns_RD_F",
+        "conn_state_SF",
+        "proto_icmp",
+        "http_version_1.1",
+        "http_status_code_200",
+        "http_version_-",
+        "service_ftp",
+        "http_status_code_0",
+        "dns_rejected_F",
+        "dns_qclass_0",
+        "dns_rcode_3",
+        "dns_qtype_28",
+        "service_dns",
+        "dns_RA_F",
+        "conn_state_RSTR",
+        "dns_rcode_2",
+        "service_ssl",
+        "service_gssapi",
+        "service_smb",
+        "dns_qclass_1",
+        "service_http",
+        "service_dce_rpc"
+    ]
+}
+
+
+Training data for TabularNeuralNetTorchModel has: 361457 examples, 40 features (40 vector, 0 embedding)
+Training on GPU
+Neural network architecture:
+EmbedNet(
+  (main_block): Sequential(
+    (0): Linear(in_features=40, out_features=256, bias=True)
+    (1): Tanh()
+    (2): Dropout(p=0.4060843643877466, inplace=False)
+    (3): Linear(in_features=256, out_features=256, bias=True)
+    (4): Tanh()
+    (5): Dropout(p=0.4060843643877466, inplace=False)
+    (6): Linear(in_features=256, out_features=256, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=256, out_features=2, bias=True)
+  )
+  (softmax): Softmax(dim=1)
+)
+Training tabular neural network for up to 5 epochs...
+Epoch 1 (Update 1411).	Train loss: 0.2118, Val roc_auc: 0.9779, Best Epoch: 1
+Epoch 2 (Update 2822).	Train loss: 0.189, Val roc_auc: 0.9798, Best Epoch: 2
+Epoch 3 (Update 4233).	Train loss: 0.1843, Val roc_auc: 0.9772, Best Epoch: 2
+Epoch 4 (Update 5644).	Train loss: 0.1791, Val roc_auc: 0.9847, Best Epoch: 4
+Epoch 5 (Update 7055).	Train loss: 0.1744, Val roc_auc: 0.9862, Best Epoch: 5
+Best model found on Epoch 5 (Update 7055). Val roc_auc: 0.9862115589833139
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_val.pkl
+	Fitting NeuralNetTorch/T4 with 'num_gpus': 1, 'num_cpus': 8
+Tabular Neural Network treats features as the following types:
+{
+    "continuous": [],
+    "skewed": [
+        "src_ip_bytes",
+        "src_bytes",
+        "dst_ip_bytes",
+        "src_pkts",
+        "duration",
+        "dst_bytes",
+        "dst_pkts"
+    ],
+    "onehot": [],
+    "embed": [],
+    "language": [],
+    "bool": [
+        "proto_tcp",
+        "conn_state_REJ",
+        "dns_rejected_T",
+        "conn_state_S0",
+        "conn_state_OTH",
+        "conn_state_RSTRH",
+        "proto_udp",
+        "service_-",
+        "conn_state_RSTO",
+        "dns_qtype_12",
+        "conn_state_S1",
+        "dns_RD_F",
+        "conn_state_SF",
+        "proto_icmp",
+        "http_version_1.1",
+        "http_status_code_200",
+        "http_version_-",
+        "service_ftp",
+        "http_status_code_0",
+        "dns_rejected_F",
+        "dns_qclass_0",
+        "dns_rcode_3",
+        "dns_qtype_28",
+        "service_dns",
+        "dns_RA_F",
+        "conn_state_RSTR",
+        "dns_rcode_2",
+        "service_ssl",
+        "service_gssapi",
+        "service_smb",
+        "dns_qclass_1",
+        "service_http",
+        "service_dce_rpc"
+    ]
+}
+
+
+Training data for TabularNeuralNetTorchModel has: 361457 examples, 40 features (40 vector, 0 embedding)
+Training on GPU
+Neural network architecture:
+EmbedNet(
+  (main_block): Sequential(
+    (0): Linear(in_features=40, out_features=512, bias=True)
+    (1): Tanh()
+    (2): Dropout(p=0.07017539020632257, inplace=False)
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Tanh()
+    (5): Dropout(p=0.07017539020632257, inplace=False)
+    (6): Linear(in_features=512, out_features=512, bias=True)
+    (7): Tanh()
+    (8): Linear(in_features=512, out_features=2, bias=True)
+  )
+  (softmax): Softmax(dim=1)
+)
+Training tabular neural network for up to 5 epochs...
+Epoch 1 (Update 1411).	Train loss: 0.1454, Val roc_auc: 0.9962, Best Epoch: 1
+Epoch 2 (Update 2822).	Train loss: 0.0687, Val roc_auc: 0.9974, Best Epoch: 2
+Epoch 3 (Update 4233).	Train loss: 0.0556, Val roc_auc: 0.9979, Best Epoch: 3
+Epoch 4 (Update 5644).	Train loss: 0.0544, Val roc_auc: 0.9979, Best Epoch: 4
+Epoch 5 (Update 7055).	Train loss: 0.0571, Val roc_auc: 0.9978, Best Epoch: 4
+Best model found on Epoch 4 (Update 5644). Val roc_auc: 0.9979454064804035
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/dataset_val.pkl
+	Fitting NeuralNetTorch/T5 with 'num_gpus': 1, 'num_cpus': 8
+Tabular Neural Network treats features as the following types:
+{
+    "continuous": [],
+    "skewed": [
+        "src_ip_bytes",
+        "src_bytes",
+        "dst_ip_bytes",
+        "src_pkts",
+        "duration",
+        "dst_bytes",
+        "dst_pkts"
+    ],
+    "onehot": [],
+    "embed": [],
+    "language": [],
+    "bool": [
+        "proto_tcp",
+        "conn_state_REJ",
+        "dns_rejected_T",
+        "conn_state_S0",
+        "conn_state_OTH",
+        "conn_state_RSTRH",
+        "proto_udp",
+        "service_-",
+        "conn_state_RSTO",
+        "dns_qtype_12",
+        "conn_state_S1",
+        "dns_RD_F",
+        "conn_state_SF",
+        "proto_icmp",
+        "http_version_1.1",
+        "http_status_code_200",
+        "http_version_-",
+        "service_ftp",
+        "http_status_code_0",
+        "dns_rejected_F",
+        "dns_qclass_0",
+        "dns_rcode_3",
+        "dns_qtype_28",
+        "service_dns",
+        "dns_RA_F",
+        "conn_state_RSTR",
+        "dns_rcode_2",
+        "service_ssl",
+        "service_gssapi",
+        "service_smb",
+        "dns_qclass_1",
+        "service_http",
+        "service_dce_rpc"
+    ]
+}
+
+
+Training data for TabularNeuralNetTorchModel has: 361457 examples, 40 features (40 vector, 0 embedding)
+Training on GPU
+Neural network architecture:
+EmbedNet(
+  (main_block): Sequential(
+    (0): Linear(in_features=40, out_features=512, bias=True)
+    (1): Identity()
+    (2): Dropout(p=0.0716766437045232, inplace=False)
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Identity()
+    (5): Dropout(p=0.0716766437045232, inplace=False)
+    (6): Linear(in_features=512, out_features=512, bias=True)
+    (7): Identity()
+    (8): Dropout(p=0.0716766437045232, inplace=False)
+    (9): Linear(in_features=512, out_features=512, bias=True)
+    (10): Identity()
+    (11): Linear(in_features=512, out_features=2, bias=True)
+  )
+  (softmax): Softmax(dim=1)
+)
+Training tabular neural network for up to 5 epochs...
+Epoch 1 (Update 1411).	Train loss: 0.2165, Val roc_auc: 0.9731, Best Epoch: 1
+Epoch 2 (Update 2822).	Train loss: 0.2015, Val roc_auc: 0.9736, Best Epoch: 2
+Epoch 3 (Update 4233).	Train loss: 0.2006, Val roc_auc: 0.974, Best Epoch: 3
+Epoch 4 (Update 5644).	Train loss: 0.1994, Val roc_auc: 0.9729, Best Epoch: 3
+Epoch 5 (Update 7055).	Train loss: 0.1992, Val roc_auc: 0.9762, Best Epoch: 5
+Best model found on Epoch 5 (Update 7055). Val roc_auc: 0.9761829808562927
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T5/model.pkl
+Time for NeuralNetTorch model HPO: 96.71680951118469
+Best hyperparameter configuration for NeuralNetTorch model: 
+{'num_epochs': 5, 'epochs_wo_improve': 20, 'activation': 'tanh', 'embedding_size_factor': 1.0, 'embed_exponent': 0.56, 'max_embedding_dim': 100, 'y_range': None, 'y_range_extend': 0.05, 'dropout_prob': 0.07017539020632257, 'optimizer': 'adam', 'learning_rate': 0.0008855561236207109, 'weight_decay': 8.451994426336366e-05, 'proc.embed_min_categories': 100, 'proc.impute_strategy': 'mean', 'proc.max_category_levels': 200, 'proc.skew_threshold': 0.5, 'use_ngram_features': False, 'num_layers': 3, 'hidden_size': 512, 'max_batch_size': 512, 'use_batchnorm': False, 'loss_function': 'auto'}
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T1/model.pkl
+Fitted model: NeuralNetTorch/T1 ...
+	0.9979	 = Validation score   (roc_auc)
+	17.8s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T2/model.pkl
+Fitted model: NeuralNetTorch/T2 ...
+	0.9976	 = Validation score   (roc_auc)
+	20.37s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T3/model.pkl
+Fitted model: NeuralNetTorch/T3 ...
+	0.9862	 = Validation score   (roc_auc)
+	18.32s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T4/model.pkl
+Fitted model: NeuralNetTorch/T4 ...
+	0.9979	 = Validation score   (roc_auc)
+	18.67s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T5/model.pkl
+Fitted model: NeuralNetTorch/T5 ...
+	0.9762	 = Validation score   (roc_auc)
+	20.99s	 = Training   runtime
+	0.04s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T2/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T3/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T5/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 360.0s of the 1101.89s of remaining time.
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 3
+Ensemble weights: 
+[0.66666667 0.         0.         0.33333333 0.        ]
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/WeightedEnsemble_L2/model.pkl
+	0.9981	 = Validation score   (roc_auc)
+	0.87s	 = Training   runtime
+	0.0s	 = Validation runtime
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+AutoGluon training complete, total runtime = 99.23s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T2/model.pkl
+Deleting model NeuralNetTorch/T2. All files under ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T2/ will be removed.
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T3/model.pkl
+Deleting model NeuralNetTorch/T3. All files under ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T3/ will be removed.
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T5/model.pkl
+Deleting model NeuralNetTorch/T5. All files under ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T5/ will be removed.
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T1/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T1/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T4/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T4/model.pkl
+Loading: ./auto_gl/ToN-iot/deploy-exp/NN/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/models/trainer.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/learner.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/predictor.pkl
+Saving ./auto_gl/ToN-iot/deploy-exp/NN/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/ToN-iot/deploy-exp/NN/")
+
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val   fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.998062       0.080601  37.339231                0.001734           0.870712            2       True          3
+1    NeuralNetTorch/T4   0.997945       0.036983  18.666210                0.036983          18.666210            1       True          2
+2    NeuralNetTorch/T1   0.997915       0.041884  17.802309                0.041884          17.802309            1       True          1
+Number of models trained: 3
+Types of models trained:
+{'WeightedEnsembleModel', 'TabularNeuralNetTorchModel'}
+Bagging used: False
+Multi-layer stack-ensembling used: False
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     :  1 | ['duration']
+('int', [])       :  6 | ['src_ip_bytes', 'src_bytes', 'dst_ip_bytes', 'src_pkts', 'dst_bytes', ...]
+('int', ['bool']) : 33 | ['proto_tcp', 'conn_state_REJ', 'dns_rejected_T', 'conn_state_S0', 'conn_state_OTH', ...]
+*** End of fit() summary ***
+{'model_types': {'NeuralNetTorch/T1': 'TabularNeuralNetTorchModel', 'NeuralNetTorch/T4': 'TabularNeuralNetTorchModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'NeuralNetTorch/T1': 0.9979153327512612, 'NeuralNetTorch/T4': 0.9979454064804035, 'WeightedEnsemble_L2': 0.9980615783857197}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'NeuralNetTorch/T1': './auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T1/', 'NeuralNetTorch/T4': './auto_gl/ToN-iot/deploy-exp/NN/models/NeuralNetTorch/T4/', 'WeightedEnsemble_L2': './auto_gl/ToN-iot/deploy-exp/NN/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'NeuralNetTorch/T1': 17.802308797836304, 'NeuralNetTorch/T4': 18.66620969772339, 'WeightedEnsemble_L2': 0.8707122802734375}, 'model_pred_times': {'NeuralNetTorch/T1': 0.04188394546508789, 'NeuralNetTorch/T4': 0.03698301315307617, 'WeightedEnsemble_L2': 0.001733541488647461}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'NeuralNetTorch/T1': {'num_epochs': 5, 'epochs_wo_improve': 20, 'activation': 'relu', 'embedding_size_factor': 1.0, 'embed_exponent': 0.56, 'max_embedding_dim': 100, 'y_range': None, 'y_range_extend': 0.05, 'dropout_prob': 0.1, 'optimizer': 'adam', 'learning_rate': 0.0005, 'weight_decay': 1e-06, 'proc.embed_min_categories': 4, 'proc.impute_strategy': 'median', 'proc.max_category_levels': 100, 'proc.skew_threshold': 0.99, 'use_ngram_features': False, 'num_layers': 2, 'hidden_size': 128, 'max_batch_size': 512, 'use_batchnorm': False, 'loss_function': 'auto'}, 'NeuralNetTorch/T4': {'num_epochs': 5, 'epochs_wo_improve': 20, 'activation': 'tanh', 'embedding_size_factor': 1.0, 'embed_exponent': 0.56, 'max_embedding_dim': 100, 'y_range': None, 'y_range_extend': 0.05, 'dropout_prob': 0.07017539020632257, 'optimizer': 'adam', 'learning_rate': 0.0008855561236207109, 'weight_decay': 8.451994426336366e-05, 'proc.embed_min_categories': 100, 'proc.impute_strategy': 'mean', 'proc.max_category_levels': 200, 'proc.skew_threshold': 0.5, 'use_ngram_features': False, 'num_layers': 3, 'hidden_size': 512, 'max_batch_size': 512, 'use_batchnorm': False, 'loss_function': 'auto'}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val   fit_time  \
+0  WeightedEnsemble_L2   0.998062       0.080601  37.339231
+1    NeuralNetTorch/T4   0.997945       0.036983  18.666210
+2    NeuralNetTorch/T1   0.997915       0.041884  17.802309
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.001734           0.870712            2       True
+1                0.036983          18.666210            1       True
+2                0.041884          17.802309            1       True
+
+   fit_order
+0          3
+1          2
+2          1  }
+{
+    "roc_auc": 0.9980803116623717,
+    "accuracy": 0.9844917524319752,
+    "balanced_accuracy": 0.9853150762726774,
+    "mcc": 0.9661643479393601,
+    "f1": 0.9780263683579704,
+    "precision": 0.9682071252547994,
+    "recall": 0.9880468192120215
+}
