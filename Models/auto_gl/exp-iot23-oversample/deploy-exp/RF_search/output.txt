@@ -1,0 +1,205 @@
+Presets specified: ['optimize_for_deployment']
+============ fit kwarg info ============
+User Specified kwargs:
+{'ag_args_fit': {'num_gpus': 1},
+ 'hyperparameter_tune_kwargs': {'num_trials': 50,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'num_bag_sets': 0,
+ 'num_stack_levels': 0,
+ 'save_space': True,
+ 'verbosity': 3}
+Full kwargs:
+{'_feature_generator_kwargs': None,
+ '_save_bag_folds': None,
+ 'ag_args': None,
+ 'ag_args_ensemble': None,
+ 'ag_args_fit': {'num_gpus': 1},
+ 'auto_stack': False,
+ 'calibrate': 'auto',
+ 'excluded_model_types': None,
+ 'feature_generator': 'auto',
+ 'feature_prune_kwargs': None,
+ 'holdout_frac': None,
+ 'hyperparameter_tune_kwargs': {'num_trials': 50,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'name_suffix': None,
+ 'num_bag_folds': None,
+ 'num_bag_sets': 0,
+ 'num_stack_levels': 0,
+ 'pseudo_data': None,
+ 'quantile_levels': None,
+ 'refit_full': False,
+ 'save_space': True,
+ 'set_best_to_refit_full': False,
+ 'unlabeled_data': None,
+ 'use_bag_holdout': False,
+ 'verbosity': 3}
+========================================
+Warning: hyperparameter tuning is currently experimental and may cause the process to hang.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/learner.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/predictor.pkl
+Beginning AutoGluon training ... Time limit = 36000s
+AutoGluon will save models to "./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/"
+AutoGluon Version:  0.4.0
+Python Version:     3.8.13
+Operating System:   Linux
+Train Data Rows:    5469674
+Train Data Columns: 30
+Label Column: label
+Preprocessing data ...
+AutoGluon infers your prediction problem is: 'binary' (because only two unique label-values observed).
+	2 unique label values:  ['Benign', 'Malicious']
+	If 'binary' is not the correct problem_type, please manually specify the problem_type parameter during predictor init (You may specify problem_type as one of: ['binary', 'multiclass', 'regression'])
+Selected class <--> label mapping:  class 1 = Malicious, class 0 = Benign
+	Note: For your binary classification, AutoGluon arbitrarily selected which label-value represents positive (Malicious) vs negative (Benign) class.
+	To explicitly set the positive_class, either rename classes to 1 and 0, or specify positive_class in Predictor init.
+Using Feature Generators to preprocess the data ...
+Fitting AutoMLPipelineFeatureGenerator...
+	Available Memory:                    8409.38 MB
+	Train Data (Original)  Memory Usage: 1312.72 MB (15.6% of available memory)
+	Warning: Data size prior to feature transformation consumes 15.6% of available memory. Consider increasing memory or subsampling the data to avoid instability.
+	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
+	Stage 1 Generators:
+		Fitting AsTypeFeatureGenerator...
+			Note: Converting 16 features to boolean dtype as they only contain 2 unique values.
+			Original Features (exact raw dtype, raw dtype):
+				('float64', 'float') : 30 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+			Types of features in original data (raw dtype, special dtypes):
+				('float', []) : 30 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+				('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+			15.4s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+	Stage 2 Generators:
+		Fitting FillNaFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+				('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+				('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+			1.2s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+	Stage 3 Generators:
+		Fitting IdentityFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+				('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+				('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+			0.9s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+		Skipping CategoryFeatureGenerator: No input feature with required dtypes.
+		Skipping DatetimeFeatureGenerator: No input feature with required dtypes.
+		Skipping TextSpecialFeatureGenerator: No input feature with required dtypes.
+		Skipping TextNgramFeatureGenerator: No input feature with required dtypes.
+		Skipping IdentityFeatureGenerator: No input feature with required dtypes.
+		Skipping IsNanFeatureGenerator: No input feature with required dtypes.
+	Stage 4 Generators:
+		Fitting DropUniqueFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+				('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+				('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+			2.3s = Fit runtime
+			30 features in original data used to generate 30 features in processed data.
+	Types of features in original data (exact raw dtype, raw dtype):
+		('float64', 'float') : 30 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+	Types of features in original data (raw dtype, special dtypes):
+		('float', []) : 30 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+	Types of features in processed data (exact raw dtype, raw dtype):
+		('float64', 'float') : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+		('int8', 'int')      : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+	Types of features in processed data (raw dtype, special dtypes):
+		('float', [])     : 14 | ['duration', 'orig_bytes', 'resp_bytes', 'missed_bytes', 'orig_pkts', ...]
+		('int', ['bool']) : 16 | ['proto_tcp', 'service_dhcp', 'service_http', 'service_ssh', 'service_ssl', ...]
+	23.1s = Fit runtime
+	30 features in original data used to generate 30 features in processed data.
+	Train Data (Processed) Memory Usage: 700.12 MB (8.3% of available memory)
+Data preprocessing and feature engineering runtime = 26.57s ...
+AutoGluon will gauge predictive performance using evaluation metric: 'roc_auc'
+	This metric expects predicted probabilities rather than predicted class labels, so you'll need to use predict_proba() instead of predict()
+	To change this, specify the eval_metric parameter of Predictor()
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/learner.pkl
+Automatically generating train/validation split with holdout_frac=0.02, Train Rows: 5360280, Val Rows: 109394
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/utils/data/X.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/utils/data/y.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/utils/data/X_val.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/utils/data/y_val.pkl
+Model configs that will be trained (in order):
+	RandomForest: 	{'ag_args': {'hyperparameter_tune_kwargs': {'num_trials': 50, 'scheduler': 'local', 'searcher': 'auto'}, 'model_type': <class 'autogluon.tabular.models.rf.rf_model.RFModel'>, 'priority': 80}, 'ag_args_fit': {'num_gpus': 1}, 'ag_args_ensemble': {'use_child_oof': True}}
+Fitting 1 L1 models ...
+Hyperparameter tuning model: RandomForest ... Tuning model for up to 32376.09s of the 35973.43s of remaining time.
+Starting generic AbstractModel hyperparameter tuning for RandomForest model...
+	No hyperparameter search space specified for RandomForest. Skipping HPO. Will train one model based on the provided hyperparameters.
+	Fitting RandomForest with 'num_gpus': 1, 'num_cpus': 16
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/RandomForest/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/RandomForest/model.pkl
+Fitted model: RandomForest ...
+	0.9948	 = Validation score   (roc_auc)
+	229.28s	 = Training   runtime
+	107.53s	 = Validation runtime
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/RandomForest/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 3597.34s of the 35631.73s of remaining time.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[1.]
+	0.1s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/WeightedEnsemble_L2/model.pkl
+	0.9946	 = Validation score   (roc_auc)
+	0.02s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+AutoGluon training complete, total runtime = 375.08s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/RandomForest/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/RandomForest/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/learner.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/predictor.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/exp-iot23-oversample/deploy-exp/RF_search/")
+
+*** End of fit() summary ***
+{'model_types': {'RandomForest': 'RFModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'RandomForest': 0.9947523345006606, 'WeightedEnsemble_L2': 0.9945616479389987}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'RandomForest': './auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/RandomForest/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23-oversample/deploy-exp/RF_search/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'RandomForest': 229.2842116355896, 'WeightedEnsemble_L2': 0.018808364868164062}, 'model_pred_times': {'RandomForest': 107.53102731704712, 'WeightedEnsemble_L2': 0.014421939849853516}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'RandomForest': {'n_estimators': 300, 'n_jobs': -1, 'random_state': 0, 'bootstrap': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val    fit_time  \
+0         RandomForest   0.994752     107.531027  229.284212
+1  WeightedEnsemble_L2   0.994562     107.545449  229.303020
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0              107.531027         229.284212            1       True
+1                0.014422           0.018808            2       True
+
+   fit_order
+0          1
+1          2  }
+{
+    "roc_auc": 0.9948606615429924,
+    "accuracy": 0.985369511967258,
+    "balanced_accuracy": 0.985369511967258,
+    "mcc": 0.9707677201611113,
+    "f1": 0.9854255430362092,
+    "precision": 0.9816660104903542,
+    "recall": 0.9892139824055327
+}
+5.4898756532658746e-06

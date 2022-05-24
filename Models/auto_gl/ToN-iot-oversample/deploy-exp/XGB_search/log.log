@@ -1,0 +1,672 @@
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T1 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T2 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T2/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T3 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T3/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T4 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T4/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T5 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T5/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T6 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T6/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T7 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T7/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T8 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T8/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T9 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T9/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T10 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T10/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T11 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T11/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T12 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T12/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T13 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T13/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T14 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T14/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T15 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T15/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T16 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T16/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T17 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T17/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T18 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T18/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T19 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T19/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T20 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T20/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T21 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T21/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T22 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T22/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T23 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T23/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T24 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T24/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T25 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T25/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T26 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T26/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T27 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T27/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T28 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T28/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T29 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T29/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T30 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T30/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T31 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T31/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T32 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T32/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T33 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T33/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T34 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T34/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T35 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T35/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T36 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T36/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T37 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T37/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T38 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T38/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T39 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T39/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T40 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T40/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T41 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T41/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T42 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T42/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T43 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T43/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T44 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T44/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T45 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T45/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T46 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T46/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T47 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T47/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T48 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T48/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T49 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T49/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/dataset_val.pkl
+	Fitting XGBoost/T50 with 'num_gpus': 1, 'num_cpus': 8
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T50/model.pkl
+Time for XGBoost model HPO: 3361.8862733840942
+Best hyperparameter configuration for XGBoost model: 
+{'n_estimators': 10000, 'learning_rate': 0.1, 'n_jobs': -1, 'proc.max_category_levels': 100, 'objective': 'binary:logistic', 'booster': 'gbtree', 'use_label_encoder': False, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.01, 'subsample': 1.0, 'colsample_bytree': 1.0, 'reg_alpha': 0.0, 'reg_lambda': 1.0}
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T1/model.pkl
+Fitted model: XGBoost/T1 ...
+	1.0	 = Validation score   (roc_auc)
+	23.5s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T2/model.pkl
+Fitted model: XGBoost/T2 ...
+	0.9999	 = Validation score   (roc_auc)
+	61.5s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T3/model.pkl
+Fitted model: XGBoost/T3 ...
+	0.9999	 = Validation score   (roc_auc)
+	71.56s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T4/model.pkl
+Fitted model: XGBoost/T4 ...
+	0.9999	 = Validation score   (roc_auc)
+	6.66s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T5/model.pkl
+Fitted model: XGBoost/T5 ...
+	0.9999	 = Validation score   (roc_auc)
+	75.2s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T6/model.pkl
+Fitted model: XGBoost/T6 ...
+	0.9999	 = Validation score   (roc_auc)
+	75.45s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T7/model.pkl
+Fitted model: XGBoost/T7 ...
+	0.9998	 = Validation score   (roc_auc)
+	6.97s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T8/model.pkl
+Fitted model: XGBoost/T8 ...
+	0.9999	 = Validation score   (roc_auc)
+	85.94s	 = Training   runtime
+	0.09s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T9/model.pkl
+Fitted model: XGBoost/T9 ...
+	0.9999	 = Validation score   (roc_auc)
+	108.21s	 = Training   runtime
+	0.11s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T10/model.pkl
+Fitted model: XGBoost/T10 ...
+	1.0	 = Validation score   (roc_auc)
+	111.64s	 = Training   runtime
+	0.13s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T11/model.pkl
+Fitted model: XGBoost/T11 ...
+	0.9999	 = Validation score   (roc_auc)
+	7.83s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T12/model.pkl
+Fitted model: XGBoost/T12 ...
+	0.9999	 = Validation score   (roc_auc)
+	80.36s	 = Training   runtime
+	0.1s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T13/model.pkl
+Fitted model: XGBoost/T13 ...
+	0.9998	 = Validation score   (roc_auc)
+	107.91s	 = Training   runtime
+	0.08s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T14/model.pkl
+Fitted model: XGBoost/T14 ...
+	0.9999	 = Validation score   (roc_auc)
+	103.48s	 = Training   runtime
+	0.08s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T15/model.pkl
+Fitted model: XGBoost/T15 ...
+	0.9999	 = Validation score   (roc_auc)
+	73.27s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T16/model.pkl
+Fitted model: XGBoost/T16 ...
+	0.9999	 = Validation score   (roc_auc)
+	82.7s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T17/model.pkl
+Fitted model: XGBoost/T17 ...
+	0.9999	 = Validation score   (roc_auc)
+	68.97s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T18/model.pkl
+Fitted model: XGBoost/T18 ...
+	0.9998	 = Validation score   (roc_auc)
+	5.25s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T19/model.pkl
+Fitted model: XGBoost/T19 ...
+	0.9999	 = Validation score   (roc_auc)
+	82.06s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T20/model.pkl
+Fitted model: XGBoost/T20 ...
+	0.9999	 = Validation score   (roc_auc)
+	84.86s	 = Training   runtime
+	0.1s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T21/model.pkl
+Fitted model: XGBoost/T21 ...
+	0.9999	 = Validation score   (roc_auc)
+	79.8s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T22/model.pkl
+Fitted model: XGBoost/T22 ...
+	0.9999	 = Validation score   (roc_auc)
+	78.98s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T23/model.pkl
+Fitted model: XGBoost/T23 ...
+	0.9998	 = Validation score   (roc_auc)
+	80.82s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T24/model.pkl
+Fitted model: XGBoost/T24 ...
+	0.9999	 = Validation score   (roc_auc)
+	8.61s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T25/model.pkl
+Fitted model: XGBoost/T25 ...
+	0.9999	 = Validation score   (roc_auc)
+	98.4s	 = Training   runtime
+	0.06s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T26/model.pkl
+Fitted model: XGBoost/T26 ...
+	1.0	 = Validation score   (roc_auc)
+	91.34s	 = Training   runtime
+	0.06s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T27/model.pkl
+Fitted model: XGBoost/T27 ...
+	0.9999	 = Validation score   (roc_auc)
+	16.98s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T28/model.pkl
+Fitted model: XGBoost/T28 ...
+	0.9999	 = Validation score   (roc_auc)
+	88.8s	 = Training   runtime
+	0.08s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T29/model.pkl
+Fitted model: XGBoost/T29 ...
+	0.9999	 = Validation score   (roc_auc)
+	130.2s	 = Training   runtime
+	0.15s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T30/model.pkl
+Fitted model: XGBoost/T30 ...
+	0.9999	 = Validation score   (roc_auc)
+	76.41s	 = Training   runtime
+	0.06s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T31/model.pkl
+Fitted model: XGBoost/T31 ...
+	0.9999	 = Validation score   (roc_auc)
+	4.22s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T32/model.pkl
+Fitted model: XGBoost/T32 ...
+	0.9998	 = Validation score   (roc_auc)
+	59.71s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T33/model.pkl
+Fitted model: XGBoost/T33 ...
+	0.9998	 = Validation score   (roc_auc)
+	86.77s	 = Training   runtime
+	0.1s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T34/model.pkl
+Fitted model: XGBoost/T34 ...
+	0.9999	 = Validation score   (roc_auc)
+	10.98s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T35/model.pkl
+Fitted model: XGBoost/T35 ...
+	0.9999	 = Validation score   (roc_auc)
+	90.34s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T36/model.pkl
+Fitted model: XGBoost/T36 ...
+	0.9999	 = Validation score   (roc_auc)
+	80.48s	 = Training   runtime
+	0.06s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T37/model.pkl
+Fitted model: XGBoost/T37 ...
+	0.9999	 = Validation score   (roc_auc)
+	136.43s	 = Training   runtime
+	0.14s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T38/model.pkl
+Fitted model: XGBoost/T38 ...
+	0.9999	 = Validation score   (roc_auc)
+	62.54s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T39/model.pkl
+Fitted model: XGBoost/T39 ...
+	0.9998	 = Validation score   (roc_auc)
+	9.09s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T40/model.pkl
+Fitted model: XGBoost/T40 ...
+	0.9999	 = Validation score   (roc_auc)
+	7.13s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T41/model.pkl
+Fitted model: XGBoost/T41 ...
+	0.9999	 = Validation score   (roc_auc)
+	77.97s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T42/model.pkl
+Fitted model: XGBoost/T42 ...
+	0.9998	 = Validation score   (roc_auc)
+	86.46s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T43/model.pkl
+Fitted model: XGBoost/T43 ...
+	0.9998	 = Validation score   (roc_auc)
+	84.78s	 = Training   runtime
+	0.1s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T44/model.pkl
+Fitted model: XGBoost/T44 ...
+	0.9998	 = Validation score   (roc_auc)
+	64.37s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T45/model.pkl
+Fitted model: XGBoost/T45 ...
+	0.9999	 = Validation score   (roc_auc)
+	102.32s	 = Training   runtime
+	0.15s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T46/model.pkl
+Fitted model: XGBoost/T46 ...
+	0.9999	 = Validation score   (roc_auc)
+	77.98s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T47/model.pkl
+Fitted model: XGBoost/T47 ...
+	0.9999	 = Validation score   (roc_auc)
+	69.52s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T48/model.pkl
+Fitted model: XGBoost/T48 ...
+	0.9999	 = Validation score   (roc_auc)
+	54.15s	 = Training   runtime
+	0.06s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T49/model.pkl
+Fitted model: XGBoost/T49 ...
+	0.9999	 = Validation score   (roc_auc)
+	110.52s	 = Training   runtime
+	0.16s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T50/model.pkl
+Fitted model: XGBoost/T50 ...
+	0.9998	 = Validation score   (roc_auc)
+	4.9s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T10/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T11/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T12/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T13/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T14/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T15/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T16/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T17/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T18/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T19/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T2/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T20/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T21/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T22/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T23/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T24/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T25/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T26/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T27/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T28/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T29/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T3/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T30/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T31/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T32/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T33/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T34/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T35/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T36/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T37/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T38/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T39/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T4/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T40/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T41/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T42/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T43/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T44/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T45/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T46/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T47/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T48/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T49/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T5/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T50/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T6/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T7/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T8/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T9/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 3599.85s of the 32632.36s of remaining time.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 16
+Ensemble weights: 
+[0.8125 0.     0.     0.1875 0.    ]
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/WeightedEnsemble_L2/model.pkl
+	1.0	 = Validation score   (roc_auc)
+	0.96s	 = Training   runtime
+	0.0s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+AutoGluon training complete, total runtime = 3369.49s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T2/model.pkl
+Deleting model XGBoost/T2. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T2/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T3/model.pkl
+Deleting model XGBoost/T3. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T3/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T4/model.pkl
+Deleting model XGBoost/T4. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T4/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T5/model.pkl
+Deleting model XGBoost/T5. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T5/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T6/model.pkl
+Deleting model XGBoost/T6. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T6/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T7/model.pkl
+Deleting model XGBoost/T7. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T7/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T8/model.pkl
+Deleting model XGBoost/T8. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T8/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T9/model.pkl
+Deleting model XGBoost/T9. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T9/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T10/model.pkl
+Deleting model XGBoost/T10. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T10/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T11/model.pkl
+Deleting model XGBoost/T11. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T11/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T12/model.pkl
+Deleting model XGBoost/T12. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T12/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T13/model.pkl
+Deleting model XGBoost/T13. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T13/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T14/model.pkl
+Deleting model XGBoost/T14. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T14/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T15/model.pkl
+Deleting model XGBoost/T15. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T15/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T16/model.pkl
+Deleting model XGBoost/T16. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T16/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T17/model.pkl
+Deleting model XGBoost/T17. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T17/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T18/model.pkl
+Deleting model XGBoost/T18. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T18/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T19/model.pkl
+Deleting model XGBoost/T19. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T19/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T20/model.pkl
+Deleting model XGBoost/T20. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T20/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T21/model.pkl
+Deleting model XGBoost/T21. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T21/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T22/model.pkl
+Deleting model XGBoost/T22. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T22/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T23/model.pkl
+Deleting model XGBoost/T23. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T23/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T24/model.pkl
+Deleting model XGBoost/T24. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T24/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T26/model.pkl
+Deleting model XGBoost/T26. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T26/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T27/model.pkl
+Deleting model XGBoost/T27. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T27/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T28/model.pkl
+Deleting model XGBoost/T28. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T28/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T29/model.pkl
+Deleting model XGBoost/T29. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T29/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T30/model.pkl
+Deleting model XGBoost/T30. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T30/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T31/model.pkl
+Deleting model XGBoost/T31. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T31/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T32/model.pkl
+Deleting model XGBoost/T32. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T32/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T33/model.pkl
+Deleting model XGBoost/T33. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T33/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T34/model.pkl
+Deleting model XGBoost/T34. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T34/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T35/model.pkl
+Deleting model XGBoost/T35. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T35/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T36/model.pkl
+Deleting model XGBoost/T36. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T36/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T37/model.pkl
+Deleting model XGBoost/T37. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T37/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T38/model.pkl
+Deleting model XGBoost/T38. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T38/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T39/model.pkl
+Deleting model XGBoost/T39. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T39/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T40/model.pkl
+Deleting model XGBoost/T40. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T40/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T41/model.pkl
+Deleting model XGBoost/T41. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T41/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T42/model.pkl
+Deleting model XGBoost/T42. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T42/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T43/model.pkl
+Deleting model XGBoost/T43. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T43/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T44/model.pkl
+Deleting model XGBoost/T44. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T44/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T45/model.pkl
+Deleting model XGBoost/T45. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T45/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T46/model.pkl
+Deleting model XGBoost/T46. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T46/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T47/model.pkl
+Deleting model XGBoost/T47. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T47/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T48/model.pkl
+Deleting model XGBoost/T48. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T48/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T49/model.pkl
+Deleting model XGBoost/T49. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T49/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T50/model.pkl
+Deleting model XGBoost/T50. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T50/ will be removed.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T1/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T25/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T25/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/learner.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/predictor.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/")
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val    fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0  WeightedEnsemble_L2   0.999978       0.093406  122.857790                0.002297           0.963409            2       True          3
+1           XGBoost/T1   0.999977       0.027960   23.495488                0.027960          23.495488            1       True          1
+2          XGBoost/T25   0.999949       0.063149   98.398892                0.063149          98.398892            1       True          2
+Number of models trained: 3
+Types of models trained:
+{'WeightedEnsembleModel', 'XGBoostModel'}
+Bagging used: False
+Multi-layer stack-ensembling used: False
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+*** End of fit() summary ***
+{'model_types': {'XGBoost/T1': 'XGBoostModel', 'XGBoost/T25': 'XGBoostModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'XGBoost/T1': 0.9999770399882162, 'XGBoost/T25': 0.9999487815121747, 'WeightedEnsemble_L2': 0.9999783646042807}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'XGBoost/T1': './auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T1/', 'XGBoost/T25': './auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/XGBoost/T25/', 'WeightedEnsemble_L2': './auto_gl/ToN-iot-oversample/deploy-exp/XGB_search/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'XGBoost/T1': 23.495488166809082, 'XGBoost/T25': 98.39889240264893, 'WeightedEnsemble_L2': 0.963409423828125}, 'model_pred_times': {'XGBoost/T1': 0.027959585189819336, 'XGBoost/T25': 0.06314945220947266, 'WeightedEnsemble_L2': 0.002296924591064453}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'XGBoost/T1': {'n_estimators': 10000, 'learning_rate': 0.1, 'n_jobs': -1, 'proc.max_category_levels': 100, 'objective': 'binary:logistic', 'booster': 'gbtree', 'use_label_encoder': False, 'max_depth': 6, 'min_child_weight': 1, 'gamma': 0.01, 'subsample': 1.0, 'colsample_bytree': 1.0, 'reg_alpha': 0.0, 'reg_lambda': 1.0}, 'XGBoost/T25': {'n_estimators': 10000, 'learning_rate': 0.09343752798843193, 'n_jobs': -1, 'proc.max_category_levels': 100, 'objective': 'binary:logistic', 'booster': 'gbtree', 'use_label_encoder': False, 'max_depth': 8, 'min_child_weight': 1, 'gamma': 0.09260897230306986, 'subsample': 0.8918221226509442, 'colsample_bytree': 0.5999982624482001, 'reg_alpha': 6.082528658540129, 'reg_lambda': 5.9665540629505305}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val    fit_time  \
+0  WeightedEnsemble_L2   0.999978       0.093406  122.857790
+1           XGBoost/T1   0.999977       0.027960   23.495488
+2          XGBoost/T25   0.999949       0.063149   98.398892
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.002297           0.963409            2       True
+1                0.027960          23.495488            1       True
+2                0.063149          98.398892            1       True
+
+   fit_order
+0          3
+1          1
+2          2  }
+{
+    "roc_auc": 0.9999767120383589,
+    "accuracy": 0.9988232426389624,
+    "balanced_accuracy": 0.9988227450018475,
+    "mcc": 0.9976479487971535,
+    "f1": 0.998824931594232,
+    "precision": 0.9979705477843749,
+    "recall": 0.9996807795698924
+}
+6.448668356881491e-06

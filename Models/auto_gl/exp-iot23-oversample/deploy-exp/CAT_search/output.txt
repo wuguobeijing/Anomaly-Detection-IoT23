@@ -1,0 +1,835 @@
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T1 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 7.343 GB is available...
+	Training CatBoost/T1 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.05, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T2 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.717 GB is available...
+	Training CatBoost/T2 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.11259896076097305, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.3713784729000733, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T3 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.574 GB is available...
+	Training CatBoost/T3 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.023861097124304616, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.1795327319875875, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T4 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.571 GB is available...
+	Training CatBoost/T4 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.014984363280426882, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 2.5375268291707993, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T5 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.55 GB is available...
+	Training CatBoost/T5 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.02057151708150835, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 4.854651042004117, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T6 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.533 GB is available...
+	Training CatBoost/T6 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.029371236410262794, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 4.248674915101972, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T7 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.546 GB is available...
+	Training CatBoost/T7 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.006497915076728414, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.702386553170644, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T8 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.545 GB is available...
+	Training CatBoost/T8 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.019449795636786765, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3.592687488204789, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T9 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.546 GB is available...
+	Training CatBoost/T9 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.12381739396810261, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.1126270037994015, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T10 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.546 GB is available...
+	Training CatBoost/T10 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.0959570916902408, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 2.894432181094842, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T11 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.546 GB is available...
+	Training CatBoost/T11 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.007734864854828253, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.122116705145822, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T12 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.547 GB is available...
+	Training CatBoost/T12 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.036297286185258806, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.3280791683004285, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T13 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.546 GB is available...
+	Training CatBoost/T13 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.023082524666053997, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.0873932870002867, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T14 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.547 GB is available...
+	Training CatBoost/T14 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.07578044178487714, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 1.7453293733070399, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T15 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.548 GB is available...
+	Training CatBoost/T15 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.005358859760545354, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.273735795474594, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T16 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.547 GB is available...
+	Training CatBoost/T16 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.011353825252123055, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 1.5986994687347327, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T17 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.55 GB is available...
+	Training CatBoost/T17 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.061842498443089595, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.774992314058497, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T18 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.55 GB is available...
+	Training CatBoost/T18 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.13950397023933195, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 3.4522538315365296, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T19 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.55 GB is available...
+	Training CatBoost/T19 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.05850194196844664, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 1.2409018865170793, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T20 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.55 GB is available...
+	Training CatBoost/T20 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.018739209297450276, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 1.6836383405441806, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T21 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.55 GB is available...
+	Training CatBoost/T21 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.01912742372887113, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 2.2617134036967355, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T22 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.551 GB is available...
+	Training CatBoost/T22 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.05189375488227747, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 1.153701705890939, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T23 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.552 GB is available...
+	Training CatBoost/T23 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.010804460805871243, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 1.4081792429921123, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T24 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.553 GB is available...
+	Training CatBoost/T24 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.04276900414766508, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 4.98119827071155, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T25 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.555 GB is available...
+	Training CatBoost/T25 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.012318404647570598, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 2.865243091425225, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T26 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.554 GB is available...
+	Training CatBoost/T26 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.0602509229322521, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 2.352030459355567, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T27 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.556 GB is available...
+	Training CatBoost/T27 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.010325396576718085, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 1.5527318053944552, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T28 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.558 GB is available...
+	Training CatBoost/T28 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.005256692571034485, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.650107467800177, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T29 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Potentially not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.558 GB is available...
+	Training CatBoost/T29 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.007127306227879644, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.351779629995216, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T30 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.22 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T31 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.212 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T32 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.209 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T33 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.124 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T34 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.126 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T35 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.136 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T36 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.144 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T37 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.152 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T38 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.161 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T39 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.163 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T40 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.161 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T41 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.163 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T42 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.168 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T43 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.17 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T44 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.173 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T45 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.172 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T46 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.173 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T47 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.173 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T48 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.171 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T49 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.174 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T50 with 'num_gpus': 1, 'num_cpus': 8
+	Warning: Not enough memory to safely train CatBoost model, roughly requires: 6.249 GB, but only 6.175 GB is available...
+
+Traceback (most recent call last):
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 33, in model_trial
+    model = fit_and_save_model(
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/model_trial.py", line 73, in fit_and_save_model
+    model.fit(**fit_args, time_limit=time_left, reporter=reporter)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/core/models/abstract/abstract_model.py", line 576, in fit
+    self._validate_fit_memory_usage(**kwargs)
+  File "/media/wuguo-buaa/LENOVO_USB_HDD/PycharmProjects/Machine_learning_venv/lib/python3.8/site-packages/autogluon/tabular/models/catboost/catboost_model.py", line 296, in _validate_fit_memory_usage
+    raise NotEnoughMemoryError
+autogluon.core.utils.exceptions.NotEnoughMemoryError
+Time for CatBoost model HPO: 4491.555417537689
+Best hyperparameter configuration for CatBoost model: 
+{'iterations': 10000, 'learning_rate': 0.02057151708150835, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 4.854651042004117}
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Fitted model: CatBoost/T1 ...
+	0.9952	 = Validation score   (roc_auc)
+	68.31s	 = Training   runtime
+	0.15s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Fitted model: CatBoost/T2 ...
+	0.9952	 = Validation score   (roc_auc)
+	48.72s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Fitted model: CatBoost/T3 ...
+	0.9952	 = Validation score   (roc_auc)
+	154.27s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Fitted model: CatBoost/T4 ...
+	0.9952	 = Validation score   (roc_auc)
+	233.27s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Fitted model: CatBoost/T5 ...
+	0.9952	 = Validation score   (roc_auc)
+	196.65s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Fitted model: CatBoost/T6 ...
+	0.9952	 = Validation score   (roc_auc)
+	135.26s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Fitted model: CatBoost/T7 ...
+	0.9952	 = Validation score   (roc_auc)
+	254.57s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Fitted model: CatBoost/T8 ...
+	0.9952	 = Validation score   (roc_auc)
+	193.97s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Fitted model: CatBoost/T9 ...
+	0.9952	 = Validation score   (roc_auc)
+	41.43s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Fitted model: CatBoost/T10 ...
+	0.9952	 = Validation score   (roc_auc)
+	57.13s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Fitted model: CatBoost/T11 ...
+	0.9952	 = Validation score   (roc_auc)
+	253.99s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Fitted model: CatBoost/T12 ...
+	0.9952	 = Validation score   (roc_auc)
+	86.48s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Fitted model: CatBoost/T13 ...
+	0.9952	 = Validation score   (roc_auc)
+	177.36s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Fitted model: CatBoost/T14 ...
+	0.9952	 = Validation score   (roc_auc)
+	48.29s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Fitted model: CatBoost/T15 ...
+	0.9952	 = Validation score   (roc_auc)
+	233.34s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Fitted model: CatBoost/T16 ...
+	0.9952	 = Validation score   (roc_auc)
+	253.14s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Fitted model: CatBoost/T17 ...
+	0.9952	 = Validation score   (roc_auc)
+	70.63s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Fitted model: CatBoost/T18 ...
+	0.9952	 = Validation score   (roc_auc)
+	39.92s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Fitted model: CatBoost/T19 ...
+	0.9952	 = Validation score   (roc_auc)
+	52.54s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Fitted model: CatBoost/T20 ...
+	0.9952	 = Validation score   (roc_auc)
+	164.25s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Fitted model: CatBoost/T21 ...
+	0.9952	 = Validation score   (roc_auc)
+	221.83s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Fitted model: CatBoost/T22 ...
+	0.9952	 = Validation score   (roc_auc)
+	74.19s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Fitted model: CatBoost/T23 ...
+	0.9952	 = Validation score   (roc_auc)
+	258.59s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Fitted model: CatBoost/T24 ...
+	0.9952	 = Validation score   (roc_auc)
+	120.28s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Fitted model: CatBoost/T25 ...
+	0.9952	 = Validation score   (roc_auc)
+	197.74s	 = Training   runtime
+	0.04s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Fitted model: CatBoost/T26 ...
+	0.9952	 = Validation score   (roc_auc)
+	86.57s	 = Training   runtime
+	0.03s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Fitted model: CatBoost/T27 ...
+	0.9952	 = Validation score   (roc_auc)
+	231.9s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Fitted model: CatBoost/T28 ...
+	0.9952	 = Validation score   (roc_auc)
+	233.8s	 = Training   runtime
+	0.05s	 = Validation runtime
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Fitted model: CatBoost/T29 ...
+	0.9952	 = Validation score   (roc_auc)
+	254.68s	 = Training   runtime
+	0.06s	 = Validation runtime
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 3597.3s of the 31478.29s of remaining time.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[0. 0. 1. 0. 0.]
+	0.1s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/model.pkl
+	0.9952	 = Validation score   (roc_auc)
+	8.24s	 = Training   runtime
+	0.02s	 = Validation runtime
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+AutoGluon training complete, total runtime = 4535.51s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Deleting model CatBoost/T1. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T1/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Deleting model CatBoost/T2. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T2/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Deleting model CatBoost/T3. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T3/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Deleting model CatBoost/T4. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T4/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Deleting model CatBoost/T6. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T6/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Deleting model CatBoost/T7. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T7/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Deleting model CatBoost/T8. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T8/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Deleting model CatBoost/T9. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T9/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Deleting model CatBoost/T10. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T10/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Deleting model CatBoost/T11. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T11/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Deleting model CatBoost/T12. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T12/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Deleting model CatBoost/T13. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T13/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Deleting model CatBoost/T14. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T14/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Deleting model CatBoost/T15. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T15/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Deleting model CatBoost/T16. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T16/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Deleting model CatBoost/T17. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T17/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Deleting model CatBoost/T18. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T18/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Deleting model CatBoost/T19. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T19/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Deleting model CatBoost/T20. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T20/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Deleting model CatBoost/T21. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T21/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Deleting model CatBoost/T22. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T22/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Deleting model CatBoost/T23. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T23/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Deleting model CatBoost/T24. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T24/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Deleting model CatBoost/T25. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T25/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Deleting model CatBoost/T26. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T26/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Deleting model CatBoost/T27. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T27/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Deleting model CatBoost/T28. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T28/ will be removed.
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Deleting model CatBoost/T29. All files under ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T29/ will be removed.
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Loading: ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/learner.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/predictor.pkl
+Saving ./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/")
+
+*** End of fit() summary ***
+{'model_types': {'CatBoost/T5': 'CatBoostModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'CatBoost/T5': 0.9952283955285791, 'WeightedEnsemble_L2': 0.9952283955285791}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'CatBoost/T5': './auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/CatBoost/T5/', 'WeightedEnsemble_L2': './auto_gl/exp-iot23-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'CatBoost/T5': 196.65114307403564, 'WeightedEnsemble_L2': 8.236488819122314}, 'model_pred_times': {'CatBoost/T5': 0.040857553482055664, 'WeightedEnsemble_L2': 0.016486644744873047}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'CatBoost/T5': {'iterations': 10000, 'learning_rate': 0.02057151708150835, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 4.854651042004117}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val    fit_time  \
+0          CatBoost/T5   0.995228       0.040858  196.651143
+1  WeightedEnsemble_L2   0.995228       0.057344  204.887632
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.040858         196.651143            1       True
+1                0.016487           8.236489            2       True
+
+   fit_order
+0          1
+1          2  }
+{
+    "roc_auc": 0.995258173764866,
+    "accuracy": 0.9856158703425469,
+    "balanced_accuracy": 0.9856158703425469,
+    "mcc": 0.9712488133815124,
+    "f1": 0.985658387760089,
+    "precision": 0.9827535097930701,
+    "recall": 0.9885804894405041
+}
+1.8905021139659493e-06

@@ -1,0 +1,819 @@
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T1 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T1 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.05, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T2 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T2 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.11259896076097305, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.3713784729000733, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T3 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T3 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.023861097124304616, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.1795327319875875, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T4 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T4 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.014984363280426882, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 2.5375268291707993, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T5 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T5 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.02057151708150835, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 4.854651042004117, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T6 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T6 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.029371236410262794, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 4.248674915101972, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T7 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T7 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.006497915076728414, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.702386553170644, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T8 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T8 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.019449795636786765, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3.592687488204789, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T9 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T9 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.12381739396810261, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.1126270037994015, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T10 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T10 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.0959570916902408, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 2.894432181094842, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T11 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T11 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.007734864854828253, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.122116705145822, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T12 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T12 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.036297286185258806, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.3280791683004285, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T13 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T13 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.023082524666053997, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.0873932870002867, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T14 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T14 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.07578044178487714, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 1.7453293733070399, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T15 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T15 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.005358859760545354, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.273735795474594, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T16 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T16 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.011353825252123055, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 1.5986994687347327, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T17 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T17 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.061842498443089595, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.774992314058497, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T18 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T18 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.13950397023933195, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 3.4522538315365296, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T19 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T19 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.05850194196844664, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 1.2409018865170793, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T20 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T20 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.018739209297450276, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 1.6836383405441806, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T21 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T21 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.01912742372887113, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 2.2617134036967355, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T22 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T22 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.05189375488227747, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 1.153701705890939, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T23 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T23 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.010804460805871243, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 1.4081792429921123, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T24 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T24 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.04276900414766508, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 4.98119827071155, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T25 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T25 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.012318404647570598, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 2.865243091425225, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T26 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T26 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.0602509229322521, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 2.352030459355567, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T27 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T27 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.010325396576718085, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 1.5527318053944552, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T28 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T28 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.005256692571034485, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.650107467800177, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T29 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T29 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.007127306227879644, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.351779629995216, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T30 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T30 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.03276565309619186, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.512773885388707, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T30/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T31 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T31 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.07643893155048546, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.419382078980184, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T31/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T32 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T32 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.18549265208736213, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 2.7668436849953815, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T32/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T33 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T33 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.00774780947881696, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 2.1845607900885797, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T33/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T34 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T34 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.1479238860954222, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 4.521903557010382, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T34/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T35 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T35 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.04042960750241689, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.7698884774800794, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T35/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T36 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T36 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.14710084656642702, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3.035875842668058, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T36/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T37 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T37 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.15408425488694605, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 3.303785982224717, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T37/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T38 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T38 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.11180276627199531, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 1.0374268194261305, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T38/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T39 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T39 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.014541724989743212, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.865308816474262, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T39/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T40 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T40 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.03842582314761293, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 2.591283011034516, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T40/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T41 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T41 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.0050873596241739006, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 4.315760116869452, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T41/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T42 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T42 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.06705008672071747, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3.278473623693227, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T42/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T43 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T43 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.012516631409382827, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 4.8487541804697525, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T43/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T44 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T44 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.1362941626019849, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 2.584393101693449, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T44/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T45 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T45 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.16800843155083262, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 1.8923265305624732, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T45/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T46 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T46 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.1847988811264093, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 7, 'l2_leaf_reg': 2.7967909528734882, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T46/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T47 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T47 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.10062894795830075, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 2.1897478034205347, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T47/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T48 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T48 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.012564888051580457, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 3.701756324800944, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T48/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T49 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T49 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.0643349781106551, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 6, 'l2_leaf_reg': 4.526941447419411, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T49/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_train.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/dataset_val.pkl
+	Fitting CatBoost/T50 with 'num_gpus': 1, 'num_cpus': 8
+	Training CatBoost/T50 with GPU, note that this may negatively impact model quality compared to CPU training.
+	Catboost model hyperparameters: {'iterations': 10000, 'learning_rate': 0.03574360983583424, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 5, 'l2_leaf_reg': 3.6386736482776514, 'thread_count': 8, 'task_type': 'GPU'}
+	Warning: CatBoost on GPU is experimental. If you encounter issues, use CPU for training CatBoost instead.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T50/model.pkl
+Time for CatBoost model HPO: 2773.661831140518
+Best hyperparameter configuration for CatBoost model: 
+{'iterations': 10000, 'learning_rate': 0.04042960750241689, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.7698884774800794}
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Fitted model: CatBoost/T1 ...
+	1.0	 = Validation score   (roc_auc)
+	43.9s	 = Training   runtime
+	0.12s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Fitted model: CatBoost/T2 ...
+	1.0	 = Validation score   (roc_auc)
+	20.98s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Fitted model: CatBoost/T3 ...
+	1.0	 = Validation score   (roc_auc)
+	67.2s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Fitted model: CatBoost/T4 ...
+	1.0	 = Validation score   (roc_auc)
+	93.41s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Fitted model: CatBoost/T5 ...
+	1.0	 = Validation score   (roc_auc)
+	82.76s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Fitted model: CatBoost/T6 ...
+	1.0	 = Validation score   (roc_auc)
+	65.02s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Fitted model: CatBoost/T7 ...
+	1.0	 = Validation score   (roc_auc)
+	93.0s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Fitted model: CatBoost/T8 ...
+	1.0	 = Validation score   (roc_auc)
+	73.18s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Fitted model: CatBoost/T9 ...
+	1.0	 = Validation score   (roc_auc)
+	20.65s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Fitted model: CatBoost/T10 ...
+	1.0	 = Validation score   (roc_auc)
+	23.5s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Fitted model: CatBoost/T11 ...
+	1.0	 = Validation score   (roc_auc)
+	93.03s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Fitted model: CatBoost/T12 ...
+	1.0	 = Validation score   (roc_auc)
+	45.39s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Fitted model: CatBoost/T13 ...
+	1.0	 = Validation score   (roc_auc)
+	61.02s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Fitted model: CatBoost/T14 ...
+	1.0	 = Validation score   (roc_auc)
+	28.98s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Fitted model: CatBoost/T15 ...
+	0.9999	 = Validation score   (roc_auc)
+	82.79s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Fitted model: CatBoost/T16 ...
+	1.0	 = Validation score   (roc_auc)
+	93.3s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Fitted model: CatBoost/T17 ...
+	1.0	 = Validation score   (roc_auc)
+	43.94s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Fitted model: CatBoost/T18 ...
+	1.0	 = Validation score   (roc_auc)
+	16.35s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Fitted model: CatBoost/T19 ...
+	1.0	 = Validation score   (roc_auc)
+	27.81s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Fitted model: CatBoost/T20 ...
+	1.0	 = Validation score   (roc_auc)
+	65.83s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Fitted model: CatBoost/T21 ...
+	1.0	 = Validation score   (roc_auc)
+	82.9s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Fitted model: CatBoost/T22 ...
+	1.0	 = Validation score   (roc_auc)
+	25.45s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Fitted model: CatBoost/T23 ...
+	1.0	 = Validation score   (roc_auc)
+	106.44s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Fitted model: CatBoost/T24 ...
+	1.0	 = Validation score   (roc_auc)
+	56.69s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Fitted model: CatBoost/T25 ...
+	1.0	 = Validation score   (roc_auc)
+	105.93s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Fitted model: CatBoost/T26 ...
+	1.0	 = Validation score   (roc_auc)
+	29.4s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Fitted model: CatBoost/T27 ...
+	1.0	 = Validation score   (roc_auc)
+	82.42s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Fitted model: CatBoost/T28 ...
+	0.9999	 = Validation score   (roc_auc)
+	82.7s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Fitted model: CatBoost/T29 ...
+	1.0	 = Validation score   (roc_auc)
+	92.98s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T30/model.pkl
+Fitted model: CatBoost/T30 ...
+	1.0	 = Validation score   (roc_auc)
+	71.22s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T31/model.pkl
+Fitted model: CatBoost/T31 ...
+	1.0	 = Validation score   (roc_auc)
+	32.49s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T32/model.pkl
+Fitted model: CatBoost/T32 ...
+	1.0	 = Validation score   (roc_auc)
+	15.03s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T33/model.pkl
+Fitted model: CatBoost/T33 ...
+	1.0	 = Validation score   (roc_auc)
+	123.13s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T34/model.pkl
+Fitted model: CatBoost/T34 ...
+	1.0	 = Validation score   (roc_auc)
+	18.44s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T35/model.pkl
+Fitted model: CatBoost/T35 ...
+	1.0	 = Validation score   (roc_auc)
+	55.02s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T36/model.pkl
+Fitted model: CatBoost/T36 ...
+	1.0	 = Validation score   (roc_auc)
+	14.4s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T37/model.pkl
+Fitted model: CatBoost/T37 ...
+	1.0	 = Validation score   (roc_auc)
+	10.69s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T38/model.pkl
+Fitted model: CatBoost/T38 ...
+	1.0	 = Validation score   (roc_auc)
+	18.77s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T39/model.pkl
+Fitted model: CatBoost/T39 ...
+	1.0	 = Validation score   (roc_auc)
+	85.48s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T40/model.pkl
+Fitted model: CatBoost/T40 ...
+	1.0	 = Validation score   (roc_auc)
+	48.95s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T41/model.pkl
+Fitted model: CatBoost/T41 ...
+	0.9999	 = Validation score   (roc_auc)
+	83.07s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T42/model.pkl
+Fitted model: CatBoost/T42 ...
+	1.0	 = Validation score   (roc_auc)
+	23.3s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T43/model.pkl
+Fitted model: CatBoost/T43 ...
+	1.0	 = Validation score   (roc_auc)
+	123.13s	 = Training   runtime
+	0.02s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T44/model.pkl
+Fitted model: CatBoost/T44 ...
+	1.0	 = Validation score   (roc_auc)
+	12.33s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T45/model.pkl
+Fitted model: CatBoost/T45 ...
+	1.0	 = Validation score   (roc_auc)
+	11.67s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T46/model.pkl
+Fitted model: CatBoost/T46 ...
+	1.0	 = Validation score   (roc_auc)
+	11.55s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T47/model.pkl
+Fitted model: CatBoost/T47 ...
+	1.0	 = Validation score   (roc_auc)
+	18.23s	 = Training   runtime
+	0.0s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T48/model.pkl
+Fitted model: CatBoost/T48 ...
+	1.0	 = Validation score   (roc_auc)
+	95.6s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T49/model.pkl
+Fitted model: CatBoost/T49 ...
+	1.0	 = Validation score   (roc_auc)
+	37.15s	 = Training   runtime
+	0.01s	 = Validation runtime
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T50/model.pkl
+Fitted model: CatBoost/T50 ...
+	1.0	 = Validation score   (roc_auc)
+	51.43s	 = Training   runtime
+	0.01s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T30/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T31/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T32/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T33/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T34/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T35/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T36/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T37/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T38/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T39/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T40/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T41/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T42/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T43/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T44/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T45/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T46/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T47/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T48/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T49/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T50/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 3599.89s of the 33224.09s of remaining time.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 1
+Ensemble weights: 
+[0. 0. 0. 1. 0.]
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/model.pkl
+	1.0	 = Validation score   (roc_auc)
+	0.97s	 = Training   runtime
+	0.0s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+AutoGluon training complete, total runtime = 2777.55s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T1/model.pkl
+Deleting model CatBoost/T1. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T1/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T2/model.pkl
+Deleting model CatBoost/T2. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T2/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T3/model.pkl
+Deleting model CatBoost/T3. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T3/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T4/model.pkl
+Deleting model CatBoost/T4. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T4/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T5/model.pkl
+Deleting model CatBoost/T5. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T5/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T6/model.pkl
+Deleting model CatBoost/T6. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T6/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T7/model.pkl
+Deleting model CatBoost/T7. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T7/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T8/model.pkl
+Deleting model CatBoost/T8. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T8/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T9/model.pkl
+Deleting model CatBoost/T9. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T9/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T10/model.pkl
+Deleting model CatBoost/T10. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T10/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T11/model.pkl
+Deleting model CatBoost/T11. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T11/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T12/model.pkl
+Deleting model CatBoost/T12. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T12/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T13/model.pkl
+Deleting model CatBoost/T13. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T13/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T14/model.pkl
+Deleting model CatBoost/T14. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T14/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T15/model.pkl
+Deleting model CatBoost/T15. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T15/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T16/model.pkl
+Deleting model CatBoost/T16. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T16/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T17/model.pkl
+Deleting model CatBoost/T17. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T17/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T18/model.pkl
+Deleting model CatBoost/T18. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T18/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T19/model.pkl
+Deleting model CatBoost/T19. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T19/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T20/model.pkl
+Deleting model CatBoost/T20. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T20/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T21/model.pkl
+Deleting model CatBoost/T21. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T21/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T22/model.pkl
+Deleting model CatBoost/T22. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T22/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T23/model.pkl
+Deleting model CatBoost/T23. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T23/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T24/model.pkl
+Deleting model CatBoost/T24. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T24/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T25/model.pkl
+Deleting model CatBoost/T25. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T25/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T26/model.pkl
+Deleting model CatBoost/T26. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T26/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T27/model.pkl
+Deleting model CatBoost/T27. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T27/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T28/model.pkl
+Deleting model CatBoost/T28. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T28/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T29/model.pkl
+Deleting model CatBoost/T29. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T29/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T30/model.pkl
+Deleting model CatBoost/T30. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T30/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T31/model.pkl
+Deleting model CatBoost/T31. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T31/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T32/model.pkl
+Deleting model CatBoost/T32. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T32/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T33/model.pkl
+Deleting model CatBoost/T33. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T33/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T34/model.pkl
+Deleting model CatBoost/T34. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T34/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T36/model.pkl
+Deleting model CatBoost/T36. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T36/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T37/model.pkl
+Deleting model CatBoost/T37. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T37/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T38/model.pkl
+Deleting model CatBoost/T38. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T38/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T39/model.pkl
+Deleting model CatBoost/T39. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T39/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T40/model.pkl
+Deleting model CatBoost/T40. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T40/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T41/model.pkl
+Deleting model CatBoost/T41. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T41/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T42/model.pkl
+Deleting model CatBoost/T42. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T42/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T43/model.pkl
+Deleting model CatBoost/T43. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T43/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T44/model.pkl
+Deleting model CatBoost/T44. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T44/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T45/model.pkl
+Deleting model CatBoost/T45. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T45/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T46/model.pkl
+Deleting model CatBoost/T46. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T46/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T47/model.pkl
+Deleting model CatBoost/T47. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T47/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T48/model.pkl
+Deleting model CatBoost/T48. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T48/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T49/model.pkl
+Deleting model CatBoost/T49. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T49/ will be removed.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T50/model.pkl
+Deleting model CatBoost/T50. All files under ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T50/ will be removed.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T35/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T35/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/learner.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/predictor.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/")
+
+*** Summary of fit() ***
+Estimated performance of each model:
+                 model  score_val  pred_time_val   fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0         CatBoost/T35   0.999992       0.009544  55.020352                0.009544          55.020352            1       True          1
+1  WeightedEnsemble_L2   0.999992       0.011829  55.992762                0.002285           0.972410            2       True          2
+Number of models trained: 2
+Types of models trained:
+{'WeightedEnsembleModel', 'CatBoostModel'}
+Bagging used: False
+Multi-layer stack-ensembling used: False
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+*** End of fit() summary ***
+{'model_types': {'CatBoost/T35': 'CatBoostModel', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'CatBoost/T35': 0.9999918536112037, 'WeightedEnsemble_L2': 0.9999918536112037}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'CatBoost/T35': './auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/CatBoost/T35/', 'WeightedEnsemble_L2': './auto_gl/ToN-iot-oversample/deploy-exp/CAT_search/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'CatBoost/T35': 55.02035188674927, 'WeightedEnsemble_L2': 0.9724104404449463}, 'model_pred_times': {'CatBoost/T35': 0.009544134140014648, 'WeightedEnsemble_L2': 0.002284526824951172}, 'num_bag_folds': 0, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'CatBoost/T35': {'iterations': 10000, 'learning_rate': 0.04042960750241689, 'random_seed': 0, 'allow_writing_files': False, 'eval_metric': 'Logloss', 'depth': 8, 'l2_leaf_reg': 3.7698884774800794}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                  model  score_val  pred_time_val   fit_time  \
+0         CatBoost/T35   0.999992       0.009544  55.020352
+1  WeightedEnsemble_L2   0.999992       0.011829  55.992762
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.009544          55.020352            1       True
+1                0.002285           0.972410            2       True
+
+   fit_order
+0          1
+1          2  }
+{
+    "roc_auc": 0.9999844494463047,
+    "accuracy": 0.9988148372292407,
+    "balanced_accuracy": 0.9988144419625054,
+    "mcc": 0.9976305966764005,
+    "f1": 0.9988163296144257,
+    "precision": 0.9981376151406856,
+    "recall": 0.9994959677419355
+}
+2.013793407148755e-06

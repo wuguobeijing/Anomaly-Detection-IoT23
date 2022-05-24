@@ -1,0 +1,286 @@
+File delimiter for ./Data/split/train_data_ToN_big_balance.csv inferred as ',' (comma). If this is incorrect, please manually load the data as a pandas DataFrame.
+Loaded data from: ./Data/split/train_data_ToN_big_balance.csv | Columns = 41 / 41 | Rows = 475881 -> 475881
+Warning: path already exists! This predictor may overwrite an existing predictor! path="./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search"
+Presets specified: ['optimize_for_deployment']
+============ fit kwarg info ============
+User Specified kwargs:
+{'ag_args_fit': {'num_gpus': 1},
+ 'hyperparameter_tune_kwargs': {'num_trials': 50,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'num_bag_folds': 5,
+ 'num_bag_sets': 1,
+ 'num_stack_levels': 0,
+ 'save_space': True,
+ 'verbosity': 4}
+Full kwargs:
+{'_feature_generator_kwargs': None,
+ '_save_bag_folds': None,
+ 'ag_args': None,
+ 'ag_args_ensemble': None,
+ 'ag_args_fit': {'num_gpus': 1},
+ 'auto_stack': False,
+ 'calibrate': 'auto',
+ 'excluded_model_types': None,
+ 'feature_generator': 'auto',
+ 'feature_prune_kwargs': None,
+ 'holdout_frac': None,
+ 'hyperparameter_tune_kwargs': {'num_trials': 50,
+                                'scheduler': 'local',
+                                'searcher': 'auto'},
+ 'keep_only_best': True,
+ 'name_suffix': None,
+ 'num_bag_folds': 5,
+ 'num_bag_sets': 1,
+ 'num_stack_levels': 0,
+ 'pseudo_data': None,
+ 'quantile_levels': None,
+ 'refit_full': False,
+ 'save_space': True,
+ 'set_best_to_refit_full': False,
+ 'unlabeled_data': None,
+ 'use_bag_holdout': False,
+ 'verbosity': 4}
+========================================
+Warning: hyperparameter tuning is currently experimental and may cause the process to hang.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/learner.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/predictor.pkl
+Beginning AutoGluon training ... Time limit = 36000s
+AutoGluon will save models to "./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/"
+AutoGluon Version:  0.4.0
+Python Version:     3.8.13
+Operating System:   Linux
+Train Data Rows:    475881
+Train Data Columns: 40
+Label Column: label
+Preprocessing data ...
+AutoGluon infers your prediction problem is: 'binary' (because only two unique label-values observed).
+	2 unique label values:  ['Benign', 'Malicious']
+	If 'binary' is not the correct problem_type, please manually specify the problem_type parameter during predictor init (You may specify problem_type as one of: ['binary', 'multiclass', 'regression'])
+Selected class <--> label mapping:  class 1 = Malicious, class 0 = Benign
+	Note: For your binary classification, AutoGluon arbitrarily selected which label-value represents positive (Malicious) vs negative (Benign) class.
+	To explicitly set the positive_class, either rename classes to 1 and 0, or specify positive_class in Predictor init.
+Using Feature Generators to preprocess the data ...
+Fitting AutoMLPipelineFeatureGenerator...
+	Available Memory:                    9474.65 MB
+	Train Data (Original)  Memory Usage: 152.28 MB (1.6% of available memory)
+	Inferring data type of each feature based on column values. Set feature_metadata_in to manually specify special dtypes of the features.
+	Stage 1 Generators:
+		Fitting AsTypeFeatureGenerator...
+			Note: Converting 4 features to boolean dtype as they only contain 2 unique values.
+			Original Features (exact raw dtype, raw dtype):
+				('float64', 'float') : 40 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+			Types of features in original data (raw dtype, special dtypes):
+				('float', []) : 40 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+			Types of features in processed data (exact raw dtype, raw dtype):
+				('float64', 'float') : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int8', 'int')      :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			0.7s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+	Stage 2 Generators:
+		Fitting FillNaFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			Types of features in processed data (exact raw dtype, raw dtype):
+				('float64', 'float') : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int8', 'int')      :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			0.1s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+	Stage 3 Generators:
+		Fitting IdentityFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			Types of features in processed data (exact raw dtype, raw dtype):
+				('float64', 'float') : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int8', 'int')      :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			0.1s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+		Skipping CategoryFeatureGenerator: No input feature with required dtypes.
+		Skipping DatetimeFeatureGenerator: No input feature with required dtypes.
+		Skipping TextSpecialFeatureGenerator: No input feature with required dtypes.
+		Skipping TextNgramFeatureGenerator: No input feature with required dtypes.
+		Skipping IdentityFeatureGenerator: No input feature with required dtypes.
+		Skipping IsNanFeatureGenerator: No input feature with required dtypes.
+	Stage 4 Generators:
+		Fitting DropUniqueFeatureGenerator...
+			Types of features in original data (raw dtype, special dtypes):
+				('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			Types of features in processed data (exact raw dtype, raw dtype):
+				('float64', 'float') : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int8', 'int')      :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			Types of features in processed data (raw dtype, special dtypes):
+				('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+				('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+			0.3s = Fit runtime
+			40 features in original data used to generate 40 features in processed data.
+	Types of features in original data (exact raw dtype, raw dtype):
+		('float64', 'float') : 40 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+	Types of features in original data (raw dtype, special dtypes):
+		('float', []) : 40 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+	Types of features in processed data (exact raw dtype, raw dtype):
+		('float64', 'float') : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+		('int8', 'int')      :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+	Types of features in processed data (raw dtype, special dtypes):
+		('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+		('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+	1.6s = Fit runtime
+	40 features in original data used to generate 40 features in processed data.
+	Train Data (Processed) Memory Usage: 138.96 MB (1.5% of available memory)
+Data preprocessing and feature engineering runtime = 1.88s ...
+AutoGluon will gauge predictive performance using evaluation metric: 'roc_auc'
+	This metric expects predicted probabilities rather than predicted class labels, so you'll need to use predict_proba() instead of predict()
+	To change this, specify the eval_metric parameter of Predictor()
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/learner.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/utils/data/X.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/utils/data/y.pkl
+Model configs that will be trained (in order):
+	RandomForest_BAG_L1: 	{'ag_args': {'hyperparameter_tune_kwargs': {'num_trials': 50, 'scheduler': 'local', 'searcher': 'auto'}, 'model_type': <class 'autogluon.tabular.models.rf.rf_model.RFModel'>, 'priority': 80}, 'ag_args_fit': {'num_gpus': 1}, 'ag_args_ensemble': {'use_child_oof': True}}
+	ExtraTrees_BAG_L1: 	{'ag_args': {'hyperparameter_tune_kwargs': {'num_trials': 50, 'scheduler': 'local', 'searcher': 'auto'}, 'model_type': <class 'autogluon.tabular.models.xt.xt_model.XTModel'>, 'priority': 60}, 'ag_args_fit': {'num_gpus': 1}, 'ag_args_ensemble': {'use_child_oof': True}}
+Fitting 2 L1 models ...
+Hyperparameter tuning model: RandomForest_BAG_L1 ... Tuning model for up to 3239.83s of the 35998.12s of remaining time.
+	Dropped 0 of 40 features.
+	Dropped 0 of 40 features.
+	Dropped 0 of 40 features.
+Starting generic AbstractModel hyperparameter tuning for RandomForest model...
+	No hyperparameter search space specified for RandomForest. Skipping HPO. Will train one model based on the provided hyperparameters.
+	Fitting RandomForest with 'num_gpus': 1, 'num_cpus': 16
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/hpo/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/hpo/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/utils/model_template.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/model.pkl
+Fitted model: RandomForest_BAG_L1/T1 ...
+	1.0	 = Validation score   (roc_auc)
+	28.83s	 = Training   runtime
+	8.6s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Hyperparameter tuning model: ExtraTrees_BAG_L1 ... Tuning model for up to 3239.83s of the 35951.09s of remaining time.
+	Dropped 0 of 40 features.
+	Dropped 0 of 40 features.
+	Dropped 0 of 40 features.
+Starting generic AbstractModel hyperparameter tuning for ExtraTrees model...
+	No hyperparameter search space specified for ExtraTrees. Skipping HPO. Will train one model based on the provided hyperparameters.
+	Fitting ExtraTrees with 'num_gpus': 1, 'num_cpus': 16
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/hpo/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/hpo/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/utils/model_template.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/model.pkl
+Fitted model: ExtraTrees_BAG_L1/T1 ...
+	1.0	 = Validation score   (roc_auc)
+	37.93s	 = Training   runtime
+	10.34s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/model.pkl
+Fitting model: RandomForest_BAG_L1/T1 ... Training model for up to 35891.3s of the 35891.3s of remaining time.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/model.pkl
+	1.0	 = Validation score   (roc_auc)
+	28.83s	 = Training   runtime
+	8.6s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/model.pkl
+Fitting model: ExtraTrees_BAG_L1/T1 ... Training model for up to 35891.23s of the 35891.23s of remaining time.
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/model.pkl
+	1.0	 = Validation score   (roc_auc)
+	37.93s	 = Training   runtime
+	10.34s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/utils/oof.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/utils/oof.pkl
+Model configs that will be trained (in order):
+	WeightedEnsemble_L2: 	{'ag_args': {'valid_base': False, 'name_bag_suffix': '', 'model_type': <class 'autogluon.core.models.greedy_ensemble.greedy_weighted_ensemble_model.GreedyWeightedEnsembleModel'>, 'priority': 0}, 'ag_args_ensemble': {'save_bag_folds': True}}
+Fitting model: WeightedEnsemble_L2 ... Training model for up to 3599.81s of the 35890.99s of remaining time.
+	Dropped 0 of 2 features.
+	Dropped 0 of 2 features.
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/WeightedEnsemble_L2/utils/model_template.pkl
+	Dropped 0 of 2 features.
+	Fitting S1F1 with 'num_gpus': 0, 'num_cpus': 16
+Ensemble size: 47
+Ensemble indices: [1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0]
+Ensemble weights: 
+[0.72340426 0.27659574]
+	0.64s	= Estimated out-of-fold prediction time...
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/WeightedEnsemble_L2/utils/oof.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/WeightedEnsemble_L2/model.pkl
+	1.0	 = Validation score   (roc_auc)
+	13.72s	 = Training   runtime
+	0.06s	 = Validation runtime
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+AutoGluon training complete, total runtime = 123.34s ... Best model: "WeightedEnsemble_L2"
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/model.pkl
+Loading: ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/WeightedEnsemble_L2/model.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/trainer.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/learner.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/predictor.pkl
+Saving ./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/__version__ with contents "0.4.0"
+TabularPredictor saved. To load, use: predictor = TabularPredictor.load("./auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/")
+
+*** Summary of fit() ***
+Estimated performance of each model:
+                    model  score_val  pred_time_val   fit_time  pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  fit_order
+0     WeightedEnsemble_L2   0.999963      18.998158  80.479070                0.063670          13.721038            2       True          3
+1    ExtraTrees_BAG_L1/T1   0.999961      10.336292  37.930839               10.336292          37.930839            1       True          2
+2  RandomForest_BAG_L1/T1   0.999955       8.598196  28.827193                8.598196          28.827193            1       True          1
+Number of models trained: 3
+Types of models trained:
+{'StackerEnsembleModel_RF', 'WeightedEnsembleModel', 'StackerEnsembleModel_XT'}
+Bagging used: True  (with 5 folds)
+Multi-layer stack-ensembling used: False
+Feature Metadata (Processed):
+(raw dtype, special dtypes):
+('float', [])     : 36 | ['src_ip_bytes', 'proto_tcp', 'src_bytes', 'dst_ip_bytes', 'src_pkts', ...]
+('int', ['bool']) :  4 | ['dns_qtype_12', 'dns_rcode_2', 'service_gssapi', 'service_dce_rpc']
+*** End of fit() summary ***
+{'model_types': {'RandomForest_BAG_L1/T1': 'StackerEnsembleModel_RF', 'ExtraTrees_BAG_L1/T1': 'StackerEnsembleModel_XT', 'WeightedEnsemble_L2': 'WeightedEnsembleModel'}, 'model_performance': {'RandomForest_BAG_L1/T1': 0.9999548488109352, 'ExtraTrees_BAG_L1/T1': 0.9999607937735604, 'WeightedEnsemble_L2': 0.9999631897712937}, 'model_best': 'WeightedEnsemble_L2', 'model_paths': {'RandomForest_BAG_L1/T1': './auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/RandomForest_BAG_L1/T1/', 'ExtraTrees_BAG_L1/T1': './auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/ExtraTrees_BAG_L1/T1/', 'WeightedEnsemble_L2': './auto_gl/ToN-iot-oversample/deploy-exp/STACCKING2_1layer_search/models/WeightedEnsemble_L2/'}, 'model_fit_times': {'RandomForest_BAG_L1/T1': 28.827192783355713, 'ExtraTrees_BAG_L1/T1': 37.93083930015564, 'WeightedEnsemble_L2': 13.72103762626648}, 'model_pred_times': {'RandomForest_BAG_L1/T1': 8.598195791244507, 'ExtraTrees_BAG_L1/T1': 10.336292028427124, 'WeightedEnsemble_L2': 0.06367039680480957}, 'num_bag_folds': 5, 'max_stack_level': 2, 'num_classes': 2, 'model_hyperparams': {'RandomForest_BAG_L1/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'ExtraTrees_BAG_L1/T1': {'use_orig_features': True, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True, 'use_child_oof': True}, 'WeightedEnsemble_L2': {'use_orig_features': False, 'max_base_models': 25, 'max_base_models_per_type': 5, 'save_bag_folds': True}}, 'leaderboard':                     model  score_val  pred_time_val   fit_time  \
+0     WeightedEnsemble_L2   0.999963      18.998158  80.479070
+1    ExtraTrees_BAG_L1/T1   0.999961      10.336292  37.930839
+2  RandomForest_BAG_L1/T1   0.999955       8.598196  28.827193
+
+   pred_time_val_marginal  fit_time_marginal  stack_level  can_infer  \
+0                0.063670          13.721038            2       True
+1               10.336292          37.930839            1       True
+2                8.598196          28.827193            1       True
+
+   fit_order
+0          3
+1          2
+2          1  }
+{
+    "roc_auc": 0.9999993816630051,
+    "accuracy": 0.9996721890208539,
+    "balanced_accuracy": 0.9996721742858445,
+    "mcc": 0.9993443790728835,
+    "f1": 0.9996723872886267,
+    "precision": 0.9996471952018547,
+    "recall": 0.9996975806451613
+}
+9.409520857150029e-06
