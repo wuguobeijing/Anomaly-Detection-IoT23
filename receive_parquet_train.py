@@ -1,18 +1,18 @@
 import json
+import os
 import socket
+import tarfile
 import time
 from time import sleep
-from kafka import KafkaConsumer, KafkaProducer
-import tqdm
-import os
-import threading
+
 import autogluon.core as ag
-import pyarrow as pa
-from autogluon.tabular import TabularPredictor, TabularDataset
-import pyarrow.parquet as pq
 import pandas as pd
+import pyarrow.parquet as pq
+import tqdm
+from autogluon.tabular import TabularPredictor, TabularDataset
+from kafka import KafkaConsumer, KafkaProducer
 from loguru import logger
-import os, tarfile
+
 
 # import pyodbc
 # model_host = 'k'
